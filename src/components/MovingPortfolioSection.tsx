@@ -14,7 +14,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/beauty1.mp4" type="video/mp4" className="z-0" />
@@ -30,7 +30,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/beauty2.mp4" type="video/mp4" className="z-0" />
@@ -46,7 +46,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/beauty3.mp4" type="video/mp4" className="z-0" />
@@ -62,7 +62,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/healthandwellness1.mp4" type="video/mp4" className="z-0" />
@@ -78,7 +78,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/healthandwellness2.mp4" type="video/mp4" className="z-0" />
@@ -94,7 +94,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/healthandwellness3.mp4" type="video/mp4" className="z-0" />
@@ -110,7 +110,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/pet1.mp4" type="video/mp4" className="z-0" />
@@ -126,7 +126,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/pet2.mp4" type="video/mp4" className="z-0" />
@@ -142,7 +142,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/financetech1.mp4" type="video/mp4" className="z-0" />
@@ -160,7 +160,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/beauty1.mp4" type="video/mp4" className="z-0" />
@@ -176,7 +176,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/beauty2.mp4" type="video/mp4" className="z-0" />
@@ -192,7 +192,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/beauty3.mp4" type="video/mp4" className="z-0" />
@@ -208,7 +208,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/healthandwellness1.mp4" type="video/mp4" className="z-0" />
@@ -223,7 +223,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/healthandwellness2.mp4" type="video/mp4" className="z-0" />
@@ -239,7 +239,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/healthandwellness3.mp4" type="video/mp4" className="z-0" />
@@ -255,7 +255,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/pet1.mp4" type="video/mp4" className="z-0" />
@@ -271,7 +271,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/pet2.mp4" type="video/mp4" className="z-0" />
@@ -287,7 +287,7 @@ export function PortfolioSection() {
                             <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                 className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                             />
-                            <video controls autoplay={false} muted loop
+                            <video controls muted loop
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src="/portfolio/financetech1.mp4" type="video/mp4" className="z-0" />
