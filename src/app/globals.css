@@ -2,3 +2,209 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #F7F7F7;
+}
+
+@layer base {
+    .checkbox-container {
+        height: 25px;
+        width: 25px;
+        background-color: white;
+        border: 1px solid #EDDCC4;
+        border-radius: 8px;
+        position: absolute;
+        left: 0;
+        transition: .1s;
+    }
+    input[type=checkbox], input[type=radio] {
+        /* visibility: hidden; */
+        opacity: 0;
+        z-index: 111;
+    }
+    input:checked~.checkbox-container {
+        background-color: #EDDCC4;
+    }
+    input:checked~.checkbox-container::after {
+        display: block;
+    }
+    .checkbox-container::after {
+        content: "";
+        position: absolute;
+        display: none;
+        left: 9.5px;
+        top: 4px;
+        width: 6px;
+        height: 12px;
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+    }
+}
+
+@layer utilities {
+    .stop-scrolling {
+        animation-play-state: paused;
+    }
+}
+
+.logo {
+    filter: contrast(0) grayscale(100%) brightness(65%);
+    height: 100%;
+}
+
+.collapsed {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.animate-scroll {
+    transform-origin: center;
+    animation: scroll 20s linear infinite;
+    /* transform: rotate(5deg) translateX(-250px) translateY(80px); */
+    /* transform: rotate(10deg) translateX(-480px) translateY(160px); */
+    /* transform: rotate(15deg) translateX(-710px) translateY(280px); */
+    /* background-color: black; */
+}
+
+.phone {
+    --offset: 250px;
+    --rotation: 0deg;
+    --x: 0px;
+    --y: 0px;
+    left: 25px;
+    top: 50px;
+    transform: translate(var(--x), calc(-1 * sin(var(--degrees)) * var(--offset)));
+    transform: translate(var(--x), calc(-1 * var(--y)));
+    rotate: var(--rotation);
+}
+
+@keyframes scroll {
+    0% {
+        transform: rotate(0) translateX(0) translateY(0);
+    }
+    10% {
+        transform: rotate(4deg) translateX(-250px) translateY(35px);
+        background-color: red;
+    }
+    20% {
+        transform: rotate(8deg) translateX(-500px) translateY(35px);
+        background-color: blue;
+    }
+    30% {
+        transform: rotate(12deg) translateX(-750px) translateY(45px);
+        background-color: green;
+    }
+    40% {
+        transform: rotate(18deg) translateX(-1000px) translateY(100px);
+        background-color: yellow;
+    }
+    50% {
+        transform: rotate(22deg) translateX(-1250px) translateY(150px);
+        background-color: gray;
+    }
+    60% {
+        transform: rotate(28deg) translateX(-1500px) translateY(300px);
+        background-color: purple;
+    }
+    70% {
+        transform: rotate(32deg) translateX(-1750px) translateY(500px);
+        background-color: cyan;
+    }
+    80% {
+        transform: rotate(36deg) translateX(-2000px) translateY(600px);
+    }
+    90% {
+        transform: rotate(40deg) translateX(-2250px) translateY(700px);
+    }
+    to {
+        transform: rotate(44deg) translateX(-2500px) translateY(800px);
+        /* transform: rotate(15deg) translateX(-750px) translateY(240px); */
+    }
+}
+
+.phone:nth-of-type(1) {
+    --rotation: 25deg;
+    --x: -970px;
+    --y: -170px;
+}
+
+.phone:nth-of-type(2) {
+    --rotation: 20deg;
+    --x: -740px;
+    --y: -90px;
+}
+
+.phone:nth-of-type(3) {
+    --rotation: 15deg;
+    --x: -500px;
+    --y: -40px;
+}
+
+.phone:nth-of-type(4) {
+    --rotation: 10deg;
+    --x: -250px;
+    --y: -20px;
+}
+
+.phone:nth-of-type(5) {
+    --rotation: 0deg;
+    --x: 0px;
+    --y: 0px;
+    z-index: 1;
+}
+
+.phone:nth-of-type(6) {
+    --rotation: -5deg;
+    --x: 240px;
+    --y: 0px;
+}
+
+.phone:nth-of-type(7) {
+    --rotation: -10deg;
+    --x: 480px;
+    --y: -30px;
+}
+
+.phone:nth-of-type(8) {
+    --rotation: -15deg;
+    --x: 720px;
+    --y: -80px;
+}
+
+.phone:nth-of-type(9) {
+    --rotation: -20deg;
+    --x: 960px;
+    --y: -160px;
+}
+
+.phone:nth-of-type(10) {
+    --rotation: -25deg;
+    --x: 1190px;
+    --y: -250px;
+}
+
+.phone:nth-of-type(11) {
+    --rotation: -30deg;
+    --x: 1410px;
+    --y: -360px;
+}
+
+.phone:nth-of-type(12) {
+    --rotation: -35deg;
+    --x: 1620px;
+    --y: -490px;
+}
+
+.phone:nth-of-type(13) {
+    --rotation: -40deg;
+    --x: 1820px;
+    --y: -630px;
+}
+
+.phone:nth-of-type(14) {
+    --rotation: -45deg;
+    --x: 2010px;
+    --y: -790px;
+}
