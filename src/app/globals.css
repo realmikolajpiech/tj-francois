@@ -129,31 +129,31 @@ body {
     }
 }
 
-.phone:nth-of-type(1) {
+/* .phone:nth-of-type(0) {
     --rotation: 25deg;
     --x: -970px;
     --y: -170px;
-}
+} */
 
-.phone:nth-of-type(2) {
+.phone:nth-of-type(1) {
     --rotation: 20deg;
     --x: -740px;
     --y: -90px;
 }
 
-.phone:nth-of-type(3) {
+.phone:nth-of-type(2) {
     --rotation: 15deg;
     --x: -500px;
     --y: -40px;
 }
 
-.phone:nth-of-type(4) {
+.phone:nth-of-type(3) {
     --rotation: 10deg;
     --x: -250px;
     --y: -20px;
 }
 
-.phone:nth-of-type(5) {
+.phone:nth-of-type(4) {
     --rotation: 0deg;
     --x: 0px;
     --y: 0px;

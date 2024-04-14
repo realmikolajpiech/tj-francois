@@ -6,7 +6,7 @@ import { Title } from "../general/Title";
 export function ProcessSection() {
 
     return (
-        <section className="px-6 md:px-8 lg:px-12 xl:px-20 mt-16 max-w-7xl lg:mx-auto">
+        <section className="px-6 md:px-8 lg:px-12 xl:px-20 mt-20 max-w-7xl lg:mx-auto">
             <Title>The Process is Simple</Title>
             <div className="flex flex-col gap-2">
                 <div className="flex justify-center lg:justify-start lg:items-baseline">

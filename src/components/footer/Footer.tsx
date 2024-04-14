@@ -21,7 +21,7 @@ export function Footer() {
                 <a href="#portfolio">Portfolio</a>
                 <a href="#contact">Contact</a>
             </div>
-            <div className="flex gap-10 w-full justify-center mb-8 items-center md:w-fit md:absolute md:right-8 lg:right-12 xl:right-20 md:bottom-16 md:m-0">
+            <div className="flex md:gap-[2.5vw] lg:gap-8 xl:gap-9 w-full justify-center mb-8 items-center md:w-fit md:absolute md:right-8 lg:right-12 xl:right-20 md:bottom-16 md:m-0">
                 <a href="https://x.com/vitalsocials">
                     <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15.3784 10.5804L24.6852 0H22.4798L14.3987 9.18678L7.94433 0H0.5L10.2603 13.892L0.5 24.9872H2.70554L11.2394 15.2856L18.0557 24.9872H25.5L15.3779 10.5804H15.3784ZM12.3576 14.0144L11.3687 12.6311L3.50023 1.62377H6.88781L13.2378 10.507L14.2267 11.8904L22.4808 23.4372H19.0933L12.3576 14.015V14.0144Z" fill="black"/>
