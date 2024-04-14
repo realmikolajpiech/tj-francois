@@ -6,6 +6,11 @@ body {
     background-color: #F7F7F7;
 }
 
+::selection, ::-moz-selection {
+    color: black;
+    background: #EDDCC4;
+}
+
 @layer base {
     .checkbox-container {
         height: 25px;
@@ -208,3 +213,4 @@ body {
     --x: 2010px;
     --y: -790px;
 }
+

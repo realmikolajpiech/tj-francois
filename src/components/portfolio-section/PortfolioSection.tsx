@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export function PortfolioSection() {
     return (
-        <section className="m-auto w-full h-[550px] flex justify-start overflow-hidden">
-            <div className='w-[100px] mx-auto relative -translate-x-24'> { /* goal: h-[3000px] */ }
+        <section className="m-auto w-full h-[550px] flex justify-start overflow-hidden -mt-20 md:-mt-0 -mb-20">
+            <div className='w-[100px] mx-auto relative -translate-x-24 scale-[70%] md:scale-100'> { /* goal: h-[3000px] */ }
                 <div className="phone w-[200px] overflow-hidden grow-0 shrink-0 flex justify-center m-4 absolute">
                     <div>
                         <div className="relative h-[420px] w-[216px]">

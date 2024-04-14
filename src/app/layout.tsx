@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Vital Socials - UGC",
-  description: "Boost Sales & Build Trust with Authentic UGC. Engage and build a deeper connection with your audience through User-Generated Content.",
+  title: "Vital Socials",
+  description: "Vital Socials partners with top eCommerce brands to craft captivating ad creatives that stop the scroll. We cherish the collaboration with our esteemed team of creators, who bring their passion and expertise to every project.",
 };
 
 export default function RootLayout({

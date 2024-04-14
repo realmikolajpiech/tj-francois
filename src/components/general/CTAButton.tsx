@@ -11,7 +11,7 @@ export function CTAButton({ children, variant="default" }: CTAButtonProps) {
     return (
         variant === 'default' ? (
             <button
-                className={`mt-[36px] px-[60px] py-[18px] bg-[#73091D] text-white font-bold rounded-[8px] text-[20px] capitalize`}
+                className={`mt-[36px] px-[60px] py-[16px] bg-[#73091D] text-white font-bold rounded-[8px] text-[18px] capitalize`}
             >
                 {children}
             </button>

@@ -1,12 +1,12 @@
 "use client";
 
-import { Title } from "./Title";
+import { Title } from "../general/Title";
 
 export function TestimonialsSection() {
 
     return (
         <section className="mt-16">
-            <div className="px-8 max-w-80 mx-auto">
+            <div className="px-6 mx-auto">
                 <Title>What Others Have To Say</Title>
             </div>
             <iframe
