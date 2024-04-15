@@ -16,7 +16,7 @@ export function HeroSection() {
                             <h3 className="text-[#2C2C2C] text-[18px]">Trusted by many brands</h3>
                             <div className="flex gap-[13px] flex-wrap mt-[16px] items-center space-y-0 gap-y-1 max-w-[750px]">
                                 <Image className="logo w-[65px]" src="/logos/HBFace.png" alt="HBFace logo" width={83} height={30} />
-                                <Image className="logo" src="/logos/skip&scamper.png" alt="Skip & Scamper logo" width={63} height={30} />
+                                <Image className="logo" src="/logos/skipscamper.png" alt="Skip & Scamper logo" width={63} height={30} />
                                 <Image className="logo w-[80px]" src="/logos/bestmoney.png" alt="BestMoney logo" width={95} height={15} />
                                 <Image className="logo w-[100px]" src="/logos/keynutrients.png" alt="KEY NUTRIENTS logo" width={114} height={30} />
                                 <Image className="logo w-[115px]" src="/logos/crossrope.png" alt="CROSSROPE logo" width={135} height={30} />
