@@ -66,26 +66,10 @@ body {
 
 .animate-scroll {
     transform-origin: center;
-    animation: scroll 20s linear infinite;
-    /* transform: rotate(5deg) translateX(-250px) translateY(80px); */
-    /* transform: rotate(10deg) translateX(-480px) translateY(160px); */
-    /* transform: rotate(15deg) translateX(-710px) translateY(280px); */
-    /* background-color: black; */
+    animation: scroll 14s linear infinite;
 }
 
-.phone {
-    --offset: 250px;
-    --rotation: 0deg;
-    --x: 0px;
-    --y: 0px;
-    left: 25px;
-    top: 50px;
-    transform: translate(var(--x), calc(-1 * sin(var(--degrees)) * var(--offset)));
-    transform: translate(var(--x), calc(-1 * var(--y)));
-    rotate: var(--rotation);
-}
-
-@keyframes scroll {
+/* @keyframes scroll {
     0% {
         transform: rotate(0) translateX(0) translateY(0);
     }
@@ -125,9 +109,59 @@ body {
     }
     to {
         transform: rotate(44deg) translateX(-2500px) translateY(800px);
-        /* transform: rotate(15deg) translateX(-750px) translateY(240px); */
+    }
+} */
+
+@keyframes scroll {
+    from {
+        transform: translateX(0) rotate(0) translateY(0);
+    }
+
+    25% {
+        transform: translateX(calc(-217px * 1.75)) rotate(8.75deg) translateY(187.5px);
+    }
+
+    50% {
+        transform: translateX(calc(-217px * 3.5)) rotate(17.5deg) translateY(375px);
+    }
+
+    75% {
+        transform: translateX(calc(-217px * 5.25)) rotate(26.25deg) translateY(502px);
+    }
+
+    to {
+        transform: translateX(calc(-217px * 7)) rotate(35deg) translateY(550px);
     }
 }
+
+.phone:nth-of-type(1) {
+    transform: rotate(15deg) translateY(-120px);
+}
+
+.phone:nth-of-type(2) {
+    transform: rotate(10deg) translateY(-70px);
+}
+
+.phone:nth-of-type(3) {
+    transform: rotate(5deg) translateY(-40px);
+}
+
+.phone:nth-of-type(4) {
+    transform: rotate(0deg) translateY(-30px);
+}
+
+.phone:nth-of-type(5) {
+    transform: rotate(-5deg) translateY(-40px);
+}
+
+.phone:nth-of-type(6) {
+    transform: rotate(-10deg) translateY(-70px);
+}
+
+.phone:nth-of-type(7) {
+    transform: rotate(-15deg) translateY(-120px);
+}
+
 
 /* .phone:nth-of-type(0) {
     --rotation: 25deg;
@@ -135,82 +169,80 @@ body {
     --y: -170px;
 } */
 
-.phone:nth-of-type(1) {
-    --rotation: 20deg;
-    --x: -740px;
-    --y: -90px;
-}
+/* .phone:nth-of-type(1) { */
+    /* --rotation: 15deg; */
+    /* --x: -740px; */
+    /* --y: -90px; */
+/* } */
 
-.phone:nth-of-type(2) {
-    --rotation: 15deg;
-    --x: -500px;
-    --y: -40px;
-}
+/* .phone:nth-of-type(2) { */
+    /* --rotation: 10deg; */
+    /* --x: -500px; */
+    /* --y: -40px; */
+/* } */
 
-.phone:nth-of-type(3) {
-    --rotation: 10deg;
-    --x: -250px;
-    --y: -20px;
-}
+/* .phone:nth-of-type(3) { */
+    /* --rotation: 5deg; */
+    /* --x: -250px; */
+    /* --y: -20px; */
+/* } */
 
-.phone:nth-of-type(4) {
-    --rotation: 0deg;
-    --x: 0px;
-    --y: 0px;
-    z-index: 1;
-}
+/* .phone:nth-of-type(4) { */
+    /* --rotation: 0deg; */
+    /* --x: 0px; */
+    /* --y: 0px; */
+/* } */
 
-.phone:nth-of-type(6) {
-    --rotation: -5deg;
-    --x: 240px;
-    --y: 0px;
-}
+/* .phone:nth-of-type(5) { */
+    /* --rotation: -5deg; */
+    /* --x: 240px; */
+    /* --y: 0px; */
+/* } */
 
-.phone:nth-of-type(7) {
-    --rotation: -10deg;
-    --x: 480px;
-    --y: -30px;
-}
+/* .phone:nth-of-type(6) { */
+    /* --rotation: -10deg; */
+    /* --x: 480px; */
+    /* --y: -30px; */
+/* } */
 
-.phone:nth-of-type(8) {
-    --rotation: -15deg;
-    --x: 720px;
-    --y: -80px;
-}
+/* .phone:nth-of-type(7) { */
+    /* --rotation: -15deg; */
+    /* --x: 720px; */
+    /* --y: -80px; */
+/* } */
 
-.phone:nth-of-type(9) {
+/* .phone:nth-of-type(8) {
     --rotation: -20deg;
     --x: 960px;
     --y: -160px;
 }
 
-.phone:nth-of-type(10) {
+.phone:nth-of-type(9) {
     --rotation: -25deg;
     --x: 1190px;
     --y: -250px;
 }
 
-.phone:nth-of-type(11) {
+.phone:nth-of-type(10) {
     --rotation: -30deg;
     --x: 1410px;
     --y: -360px;
 }
 
-.phone:nth-of-type(12) {
+.phone:nth-of-type(11) {
     --rotation: -35deg;
     --x: 1620px;
     --y: -490px;
 }
 
-.phone:nth-of-type(13) {
+.phone:nth-of-type(12) {
     --rotation: -40deg;
     --x: 1820px;
     --y: -630px;
 }
 
-.phone:nth-of-type(14) {
+.phone:nth-of-type(13) {
     --rotation: -45deg;
     --x: 2010px;
     --y: -790px;
-}
-
+} */

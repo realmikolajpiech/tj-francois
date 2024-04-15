@@ -33,7 +33,7 @@ export function HeroSection() {
                         </div>
                     </div>
                 </div>
-                <div className="flex mt-4 w-full md:w-[335px] lg:w-[417px] xl:w-[455px] justify-center overflow-hidden shrink-0 mr-6 xl:mr-20 lg:h-[400px] xl:h-[410px]">
+                <div className="flex mt-4 w-full md:w-[335px] lg:w-[417px] xl:w-[455px] justify-center overflow-hidden shrink-0 mr-6 xl:mr-20 lg:h-[400px] xl:h-[410px] xl:scale-95 xl:-mt-4">
                     <div className="hero-phone w-[200px] overflow-hidden grow-0 shrink-0 flex justify-center -rotate-6 scale-75 lg:scale-90 xl:scale-100 -m-8 xl:-m-1">
                         <div>
                             <div className="relative h-[420px] w-[216px]">
