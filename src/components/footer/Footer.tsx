@@ -45,7 +45,7 @@ export function Footer() {
                 </a>
             </div>
             <div className="font-bold text-[20px] md:absolute md:left-8 lg:left-12 xl:left-20 md:bottom-16">
-                Vital Socials
+                <a href="#">Vital Socials</a>
             </div>
             <div className="text-[13px] text-[#5F5F5F] mt-2">
                 Copyright &copy; 2024 Vital Socials LLC

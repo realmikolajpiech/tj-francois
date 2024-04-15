@@ -9,7 +9,8 @@ import { Title } from "../general/Title";
 export function ContactSection() {
 
     return (
-        <section className="px-6 mt-16 w-full max-w-[700px] mx-auto">
+        <section className="px-6 mt-16 w-full max-w-[700px] mx-auto relative">
+            <div className="absolute left-1/2 -translate-x-1/2 -top-10" id="contact"></div>
             <Title>READY TO WORK TOGETHER?</Title>
             <h2 className="text-[#222222] text-center mt-3">Answer these questions so we can know more about you before our call!</h2>
             <div className="flex flex-col gap-4 mt-8 w-full max-w-[700px] mx-auto">
