@@ -68,6 +68,91 @@ body {
     transition: max-height 0.3s ease;
 }
 
+
+.x:hover::before,
+.insta:hover::before,
+.linkedin:hover::before,
+.threads:hover::before {
+    transition: .3s;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.x:hover::after,
+.insta:hover::after,
+.linkedin:hover::after,
+.threads:hover::after {
+    transition: .3s;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.x::before,
+.insta::before,
+.linkedin::before,
+.threads::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 108%;
+    transform: translateX(-50%) translateY(-10px);
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 7.5px 10.0px 7.5px;
+    border-color: transparent transparent #222222 transparent;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s;
+}
+
+.x::after,
+.insta::after,
+.linkedin::after,
+.threads::after {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-10px);
+    top: 145%;
+    color: #F7F7F7;
+    background-color: #222222;
+    padding: 7px 15px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 200;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s;
+}
+
+.x::after { content: "@vitalsocials"; }
+.insta::after { content: "@vitalsocials.co"; }
+.threads::after { content: "@vitalsocials.co"; }
+
+.linkedin::after { 
+    content: "Tj Francois";
+    width: 117px
+}
+
+
+.link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .3s;
+}
+
+.link:hover::after {
+    width: 50%;
+}
+
+
 .animate-scroll {
     transform-origin: center;
     animation: scroll 14s linear infinite;
