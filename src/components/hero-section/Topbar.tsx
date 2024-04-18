@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { usePathname } from "next/navigation"
 
 export function Topbar() {
 
@@ -11,19 +12,23 @@ export function Topbar() {
         setIsCollapsed(!isCollapsed);
     }
 
+    const pathname = usePathname();
+    const isHome = pathname === "/";
+    const isPortfolio = pathname === "/portfolio";
+
     return (
         <nav className="flex flex-col">
             <div className="py-3 lg:py-8 px-6 md:px-8 lg:px-12 xl:px-20 bg-[#EDDCC4] md:bg-transparent md:p-6 relative">
                 <div className="flex justify-between items-center md:w-fit">
-                    <div className="font-bold"><a href="#">Vital Socials</a></div>
-                    <button className="md:hidden flex items-center justify-center rounded=md text-black hover:text-black scale-[80%]"
+                    <div className="font-bold"><a href="/">Vital Socials</a></div>
+                    <button className="md:hidden flex items-center justify-center rounded-md text-black hover:text-black scale-[80%]"
                         onClick={toggleNavbar}
                     >
                         {isCollapsed ? (
-                            <svg id="x-menu" viewBox="0 0 100 100" width="40" height="40">
-                                <line x1="10" y1="10" x2="90" y2="90" stroke="black" stroke-width="10" />
-                                <line x1="10" y1="90" x2="90" y2="10" stroke="black" stroke-width="10" />
-                            </svg>
+                             <svg id="x-menu" viewBox="0 0 100 100" width="40" height="40">
+                                 <line x1="10" y1="10" x2="90" y2="90" stroke="black" stroke-width="10" />
+                                 <line x1="10" y1="90" x2="90" y2="10" stroke="black" stroke-width="10" />
+                             </svg>
                         ) : (
                                 <svg id="hamburger-menu" viewBox="0 0 100 80" width="40" height="40">
                                     <rect width="100" height="10" rx="8"></rect>
@@ -34,8 +39,9 @@ export function Topbar() {
                     </button>
                 </div>
                 <div className="hidden md:flex gap-8 md:w-fit justify-center text-center font-medium absolute top-6 lg:top-8 lg:right-8 left-1/2 -translate-x-1/2">
-                    <a className="link relative" href="#portfolio">Portfolio</a>
-                    <a className="link relative" href="#contact">Contact</a>
+                    <a className={`link relative ${isHome ? 'active' : ''}`} href="/">Home</a>
+                    <a className={`link relative ${isPortfolio ? 'active' : ''}`} href="/portfolio">Portfolio</a>
+                    <a className="link relative" href="/#contact">Contact</a>
                 </div>
                 <div className="hidden md:flex md:gap-[2.5vw] lg:gap-8 xl:gap-9 w-fit justify-center absolute top-6 right-6 lg:top-8 lg:right-12 xl:right-20">
                     <a className="x relative transition duration-300" href="https://x.com/vitalsocials" target="_blank">
@@ -61,9 +67,11 @@ export function Topbar() {
                     </a>
                 </div>
                 {isCollapsed && (
-                    <div className="md:hidden flex flex-col gap-10 p-6">
+                    <div className={`md:hidden flex flex-col gap-10 p-6 bg-[#EDDCC4] `}>
+                        {/* ${isCollapsed ? 'slideDown' : ''} */}
                         <div className="flex flex-col gap-4 w-full justify-center text-center text-xl font-medium">
-                            <a href="#portfolio">Portfolio</a>
+                            <a className={`mobile-link ${isHome ? 'active' : ''}`} href="/">Home</a>
+                            <a className={`mobile-link ${isPortfolio ? 'active' : ''}`} href="/portfolio">Portfolio</a>
                             <a href="#contact">Contact</a>
                         </div>
                         <div className="flex gap-10 w-full justify-center">

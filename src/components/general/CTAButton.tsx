@@ -10,7 +10,7 @@ interface CTAButtonProps {
 export function CTAButton({ children, variant="default" }: CTAButtonProps) {
     return (
         variant === 'default' ? (
-            <a href="#contact">
+            <a href="/#contact">
                 <button
                     className={`mt-[36px] px-[60px] py-[16px] bg-[#73091D] text-white font-bold rounded-[8px] text-[18px] capitalize transition duration-300 hover:bg-[#EDDCC4] hover:text-black`}
                 >
