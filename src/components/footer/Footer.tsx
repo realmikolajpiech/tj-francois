@@ -1,8 +1,13 @@
 "use client";
 
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export function Footer() {
+
+    const pathname = usePathname();
+    const isHome = pathname === "/";
+    const isPortfolio = pathname === "/portfolio";
 
     return (
         <footer className="text-center pb-3 md:relative md:overflow-hidden">
@@ -18,8 +23,9 @@ export function Footer() {
             </svg>
             <div className="absolute left-0 bottom-0 -z-10 w-full h-[26vw] md:hidden bg-[#EDDCC4]"/>
             <div className="flex gap-8 w-full justify-center mb-8 font-medium md:w-fit md:absolute md:left-1/2 md:bottom-8 md:-translate-x-1/2">
-                <a className="link relative" href="#portfolio">Portfolio</a>
-                <a className="link relative" href="#contact">Contact</a>
+                <a className={`mobile-link ${isHome ? 'active' : ''}`} href="/">Home</a>
+                <a className={`mobile-link ${isPortfolio ? 'active' : ''}`} href="/portfolio">Portfolio</a>
+                <a href="/#contact">Contact</a>
             </div>
             <div className="flex gap-10 md:gap-[2.5vw] lg:gap-8 xl:gap-9 w-full justify-center mb-8 items-center md:w-fit md:absolute md:right-8 lg:right-12 xl:right-20 md:bottom-16 md:m-0">
                 <a className="x relative" href="https://x.com/vitalsocials" target="_blank">
@@ -45,7 +51,7 @@ export function Footer() {
                 </a>
             </div>
             <div className="font-bold text-[20px] md:absolute md:left-8 lg:left-12 xl:left-20 md:bottom-16">
-                <a href="#">Vital Socials</a>
+                <a href="/">Vital Socials</a>
             </div>
             <div className="text-[13px] text-[#5F5F5F] mt-2">
                 Copyright &copy; 2024 Vital Socials LLC
