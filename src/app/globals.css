@@ -280,6 +280,14 @@ body {
     }
 }
 
+.phone-process-1 {
+    transform: rotate(15deg) translateY(-195px);
+}
+
+.phone-process-2 {
+    transform: rotate(-15deg) translateY(-195px);
+}
+
 .phone:nth-of-type(1) {
     transform: rotate(20deg) translateY(-205px);
 }
