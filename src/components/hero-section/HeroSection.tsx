@@ -29,6 +29,7 @@ export function HeroSection() {
                                 <Image className="logo w-[95px]" src="/logos/banilaco.png" alt="BANILA CO logo" width={120} height={30} />
                                 <Image className="logo w-[55px]" src="/logos/ziip.png" alt="ZIIP logo" width={60} height={30} />
                                 <Image className="logo w-[60px]" src="/logos/velisy.png" alt="Velisy logo" width={73} height={30} />
+                                <Image className="logo w-[70px]" src="/logos/thefoldie.png" alt="The Foldie logo" width={73} height={30} />
                             </div>
                         </div>
                     </div>
