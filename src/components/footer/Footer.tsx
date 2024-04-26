@@ -50,7 +50,7 @@ export function Footer() {
                     <Image src="./socialmedia/threads.svg" width={25} height={25} alt="Threads" />
                 </a>
             </div>
-            <div className="font-bold text-[20px] md:absolute md:left-8 lg:left-12 xl:left-20 md:bottom-16">
+            <div className="font-bold text-[20px] md:absolute md:left-8 lg:left-12 xl:left-20 md:bottom-[61px]">
                 <a href="/">Vital Socials</a>
             </div>
             <div className="text-[13px] text-[#5F5F5F] mt-2">
