@@ -244,13 +244,18 @@ body {
 .animate-scroll {
     transform-origin: center;
     animation: scroll 18s linear infinite;
-    pointer-events: none;
 }
 
-.stop-scroll {
+/* .animate-scroll:hover {
     animation-play-state: paused;
-    background-color: black;
-    pointer-events: auto;
+} */
+
+/* .animate-stop:hover {
+    animation-play-state: paused;
+} */
+
+.animate-stop:hover .animate-scroll {
+    animation-play-state: paused;
 }
 
 @keyframes scroll {
@@ -278,6 +283,10 @@ body {
         transform: translateX(calc(-223px * 8)) rotate(40deg) translateY(845px);
         /* background-color: pink; */
     }
+}
+
+.phone {
+    pointer-events: none;
 }
 
 .phone-process-1 {
@@ -329,6 +338,7 @@ body {
 
     .portfolio-section {
         margin-top: -8rem !important;
+        padding-top: 3rem !important;
     }
 }
 
