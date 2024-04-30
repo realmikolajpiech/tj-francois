@@ -331,7 +331,29 @@ body {
 
 /* PORTFOLIO SECTION CENTERING */
 
-@media screen and (min-width: 1870px) {
+@media screen and (min-width: 2100px) {
+    .animate-scroll {
+        left: 3%;
+    }
+
+    .portfolio-section {
+        margin-top: -5rem !important;
+        padding-top: 3rem !important;
+    }
+}
+
+@media screen and (max-width: 2100px) {
+    .animate-scroll {
+        left: 0%;
+    }
+
+    .portfolio-section {
+        margin-top: -7rem !important;
+        padding-top: 3rem !important;
+    }
+}
+
+@media screen and (max-width: 2000px) {
     .animate-scroll {
         left: -3%;
     }
