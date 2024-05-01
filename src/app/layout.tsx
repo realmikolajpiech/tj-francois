@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Script from "next/script";
+import { hotjar } from "react-hotjar";
+import { useEffect } from "react";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,9 +17,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  useEffect(() => {
+    hotjar.initialize({
+      id: 4942822,
+      sv: 6,
+    });
+  }, []);
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <Script
           id="HotJarAnalytics"
           strategy="afterInteractive"
@@ -34,7 +42,7 @@ export default function RootLayout({
                 })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
               `,
           }} />
-      </head>
+      </head> */}
       <body className={inter.className}>{children}</body>
     </html>
   );
