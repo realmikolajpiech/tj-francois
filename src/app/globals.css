@@ -5,6 +5,8 @@
 html {
     --scroll-behavior: smooth !important;
     scroll-behavior: smooth !important;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 body {
@@ -380,7 +382,7 @@ body {
     }
 
     .portfolio-section {
-        margin-top: -11rem !important;
+        margin-top: -9.5rem !important;
     }
 }
 
@@ -389,7 +391,17 @@ body {
         left: -15%;
     }
     .portfolio-section {
-        margin-top: -12rem !important;
+        margin-top: -10.5rem !important;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .animate-scroll {
+        left: -15%;
+    }
+
+    .portfolio-section {
+        margin-top: -11.5rem !important;
     }
 }
 
@@ -398,7 +410,7 @@ body {
         left: -20%;
     }
     .portfolio-section {
-        margin-top: -13rem !important;
+        margin-top: -12rem !important;
         margin-bottom: -30rem;
     }
 }
@@ -408,7 +420,7 @@ body {
         left: -25%;
     }
     .portfolio-section {
-        margin-top: -14rem !important;
+        margin-top: -13.5rem !important;
         margin-bottom: -30rem;
     }
 }
