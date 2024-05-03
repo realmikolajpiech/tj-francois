@@ -16,6 +16,7 @@ const config: Config = {
       },
       screens: {
         'dk': '1360px',
+        'ps': '1200px',
       }
     },
   },

@@ -12,7 +12,7 @@ export function ProcessStep({ number, title, description }: ProcessStepProps) {
             <div className="text-[160px] text-[#F0E6D7] font-black leading-[100%]">{number}</div>
             <div className="flex flex-col gap-[10px]">
                 <h1 className="font-bold text-[28px]">{title}</h1>
-                <h2 className="text-[16px] text-[#1C1C1C] max-w-[450px]">{description}</h2>
+                <h2 className="text-[16px] text-[#1C1C1C] max-w-[520px] lg:w-[520px]">{description}</h2>
             </div>
         </div>
     )
