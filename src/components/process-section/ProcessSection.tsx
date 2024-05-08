@@ -68,7 +68,7 @@ export function ProcessSection() {
                                         <video muted loop autoPlay
                                             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                         >
-                                            <source src="/shots/4.mp4" type="video/mp4" className="z-0" />
+                                            <source src="/shots/12.mp4" type="video/mp4" className="z-0" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -97,7 +97,7 @@ export function ProcessSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/shots/2.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/shots/6.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -112,7 +112,7 @@ export function ProcessSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/shots/6.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/shots/13.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
