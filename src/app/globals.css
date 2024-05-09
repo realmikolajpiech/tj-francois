@@ -243,6 +243,20 @@ body {
 }
 
 
+/* Videos */
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+video::-webkit-media-controls-panel {
+    display: none !important;
+}
+
+
 .animate-scroll {
     transform-origin: center;
     animation: scroll 18s linear infinite;
