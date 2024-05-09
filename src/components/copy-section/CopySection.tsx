@@ -1,5 +1,3 @@
-"use client";
-
 import { CTAButton } from "../general/CTAButton";
 import { Title } from "../general/Title";
 

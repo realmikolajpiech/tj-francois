@@ -1,5 +1,3 @@
-"use client";
-
 import { ProcessStep } from "./ProcessStep";
 import { Title } from "../general/Title";
 import Image from "next/image";

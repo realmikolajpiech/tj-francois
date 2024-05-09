@@ -1,5 +1,3 @@
-"use client";
-
 import { Title } from "../general/Title";
 
 export function TestimonialsSection() {

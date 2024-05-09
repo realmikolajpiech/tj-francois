@@ -1,5 +1,3 @@
-"use client";
-
 export function Bg() {
     return (
         <svg className="hidden md:block md:-top-48 md:-right-48 absolute lg:top-0 lg:-right-32 xl:right-0 -z-20" width="555" height="1503" viewBox="0 0 555 1503" fill="none" xmlns="http://www.w3.org/2000/svg">
