@@ -63,10 +63,10 @@ export function ProcessSection() {
                                         <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                             className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                         />
-                                        <video muted loop autoPlay
+                                        <video muted loop autoPlay width={800}
                                             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                         >
-                                            <source src="/portfolio/beauty2.mp4" type="video/mp4" className="z-0" />
+                                            <source src="/portfolio/beauty2.mp4" width={800} type="video/mp4" className="z-0" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>

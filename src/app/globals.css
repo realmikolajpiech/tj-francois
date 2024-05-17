@@ -259,7 +259,7 @@ video::-webkit-media-controls-panel {
 
 .animate-scroll {
     transform-origin: center;
-    animation: scroll 18s linear infinite;
+    animation: scroll 22s linear infinite;
 }
 
 /* .animate-scroll:hover {
