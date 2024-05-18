@@ -304,15 +304,15 @@ export function PortfolioSection() {
                                     <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
-                                    <Image src="/images/creator1.jpg" width={191} height={385} alt="Image"
+                                    {/* <Image src="/images/creator1.jpg" width={191} height={385} alt="Creator"
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
-                                    />
-                                    {/* <video controls muted loop autoPlay
+                                    /> */}
+                                    <video controls muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/portfolio/beauty1.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/creators/betty2.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
-                                    </video> */}
+                                    </video>
                                 </div>
                             </div>
                         </div>
