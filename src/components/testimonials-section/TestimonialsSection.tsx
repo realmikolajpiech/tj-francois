@@ -1,6 +1,6 @@
 import { Title } from "../general/Title";
 
-export function TestimonialsSection() {
+export default function TestimonialsSection() {
 
     return (
         <section className="mt-16">
