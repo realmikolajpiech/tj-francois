@@ -48,7 +48,7 @@ export function HeroSection() {
                     <div className="hero-phone w-[200px] overflow-hidden grow-0 shrink-0 flex justify-center rotate-12 -z-10 scale-75 lg:scale-90 xl:scale-100 -m-7 xl:-m-1">
                         <div>
                             <div className="relative h-[420px] w-[216px]">
-                                <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone" loading="eager"
                                     className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                 />
                                 {/* <Image src="/images/creator1.jpg" width={191} height={385} alt="Image"
