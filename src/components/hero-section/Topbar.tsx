@@ -21,8 +21,10 @@ export function Topbar() {
             <div className="py-3 lg:py-8 px-6 md:px-8 lg:px-12 xl:px-20 bg-[#EDDCC4] md:bg-transparent md:p-6 relative">
                 <div className="flex justify-between items-center md:w-fit">
                     <div className="font-bold"><a href="/">Vital Socials</a></div>
-                    <button className="md:hidden flex items-center justify-center rounded-md text-black hover:text-black scale-[80%]"
+                    <button
+                        className="md:hidden flex items-center justify-center rounded-md text-black hover:text-black scale-[80%]"
                         onClick={toggleNavbar}
+                        aria-label="Toggle the menu"
                     >
                         {isCollapsed ? (
                              <svg id="x-menu" viewBox="0 0 100 100" width="40" height="40">
