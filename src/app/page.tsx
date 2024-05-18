@@ -8,10 +8,6 @@ import { Topbar } from "@/components/hero-section/Topbar";
 import { Bg } from "@/components/general/Bg";
 import dynamic from "next/dynamic";
 
-export function Hello() {
-  return <p>Hello!</p>
-}
-
 const DynamicTestimonialsSection = dynamic(() => import('@/components/testimonials-section/TestimonialsSection'), {
   ssr: false,
   loading: () => <h1>Loading...</h1>
