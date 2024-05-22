@@ -5,14 +5,15 @@ type PhoneProps = {
     imgOrVid: 'image' | 'video',
     img?: string,
     video?: string,
-    stopCarousel: () => void
+    // stopCarousel: () => void
 }
 
-const Phone = ({ imgOrVid, img, video, stopCarousel }: PhoneProps) => {
+const Phone = ({ imgOrVid, img, video }: PhoneProps) => {
 
   return (
     <Suspense fallback={<p>Loading...</p>}>
-        <div className="phone w-[200px] overflow-hidden grow-0 shrink-0 flex justify-center -ml-3" onMouseEnter={() => stopCarousel}>
+        {/* <div className="phone w-[200px] overflow-hidden grow-0 shrink-0 flex justify-center -ml-3" onMouseEnter={() => stopCarousel}> */}
+        <div className="phone w-[200px] overflow-hidden grow-0 shrink-0 flex justify-center -ml-3">
             <div>
                 <div className="relative h-[420px] w-[216px]">
                     <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
