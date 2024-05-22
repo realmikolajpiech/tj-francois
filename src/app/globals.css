@@ -274,6 +274,10 @@ video::-webkit-media-controls-panel {
     animation-play-state: paused;
 }
 
+.stop-carousel {
+    animation-play-state: paused;
+}
+
 @keyframes scroll {
     from {
         transform: translateX(0) rotate(0) translateY(0);
@@ -299,6 +303,23 @@ video::-webkit-media-controls-panel {
         transform: translateX(calc(-223px * 8)) rotate(40deg) translateY(845px);
         /* background-color: pink; */
     }
+}
+
+
+.alexa {
+    background-image: url('/managers/alexa.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    height: 385px;
+}
+
+.shianne {
+    background-image: url('/managers/shianne.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    height: 385px;
 }
 
 
