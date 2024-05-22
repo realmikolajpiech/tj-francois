@@ -48,7 +48,7 @@ export function ContactSection() {
                     <CheckInput id="postProduction" value="postProduction" text="Post Production" />
                     <CheckInput id="creators" value="creators" text="Creators Sourcing, Training, & Management" />
                     <CheckInput id="copywriting" value="copywriting" text="Direct Response Copywriting" />
-                    <CheckInput id="brandCollaboration" value="brandCollaboration" text="Brand Collaboration (tjandsteph_)" />
+                    <CheckInput id="brandCollaboration" value="brandCollaboration" text="Brand Collaboration (tjandsteph_, stepht.trades, vitalsocials.co)" />
                 </div>
             </div>
             <div className="mt-6 w-full max-w-[700px] mx-auto md:w-fit md:mx-0">
