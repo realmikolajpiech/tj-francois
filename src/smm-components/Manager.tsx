@@ -12,7 +12,7 @@ type ManagerProps = {
 
 const Manager = ({ name, portfolioUrl, packagesUrl='', onlyOneUrl }: ManagerProps) => {    
     return (
-        <div className='bg-white flex flex-col gap-3 rounded-lg overflow-hidden transition mx-auto md:mx-0 w-[320px]'>
+        <div className='bg-white flex flex-col gap-3 rounded-xl overflow-hidden transition mx-auto md:mx-0 w-[320px]'>
             <div className={`${name.split(' ')[0].toLowerCase()}`}></div>
             <div className='text-center flex flex-col gap-3 pb-5 pt-1'>
                 <h1 className='font-medium text-[20px]'>{name}</h1>
