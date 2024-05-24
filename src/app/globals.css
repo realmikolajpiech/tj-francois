@@ -305,22 +305,21 @@ video::-webkit-media-controls-panel {
     }
 }
 
-
-.alexa {
-    background-image: url('/managers/alexa.jpeg');
+.team {
     background-position: center;
     background-size: cover;
     width: 320px;
     height: 385px;
 }
 
-.shianne {
-    background-image: url('/managers/shianne.jpg');
-    background-position: center;
-    background-size: cover;
-    width: 320px;
-    height: 385px;
-}
+.alexa { background-image: url('/team/alexa.jpeg'); }
+.shianne { background-image: url('/team/shianne.jpg'); }
+.xeo { background-image: url('/team/xeo.jpg'); }
+.jayne { background-image: url('/team/jayne.jpg'); }
+.jasmin { background-image: url('/team/jasmin.jpg'); }
+.sierra { background-image: url('/team/sierra.jpg'); }
+.frances { background-image: url('/team/frances.jpg'); }
+.abby { background-image: url('/team/abby.jpg'); }
 
 
 section {
