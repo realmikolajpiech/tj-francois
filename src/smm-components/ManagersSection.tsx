@@ -13,7 +13,7 @@ const ManagersSection = () => {
                 <Manager name='Sierra' />
                 <Manager name='Frances' />
                 <Manager name='Abby' />
-                <Manager name='Diane and Wayne' />
+                <Manager name='Diane + Wayne' />
                 <Manager name='Tommi' />
                 <Manager name='Yosmi' />
                 <Manager name='Niha' />

@@ -44,7 +44,7 @@ export function Topbar() {
                 <div className="hidden md:flex gap-8 md:w-fit justify-center text-center font-medium absolute top-6 lg:top-8 lg:right-8 left-1/2 -translate-x-1/2">
                     <a className={`link relative ${isHome ? 'active' : ''}`} href="/">Home</a>
                     <a className={`link relative ${isPortfolio ? 'active' : ''}`} href="/portfolio">Portfolio</a>
-                    <a className={`link relative ${isCrew ? 'active' : ''}`} href="/our-team">Meet Our Crew</a>
+                    <a className={`link relative ${isCrew ? 'active' : ''}`} href="/meet-our-crew">Meet Our Crew</a>
                     <a className="link relative" href="/#contact">Contact</a>
                 </div>
                 <div className="hidden md:flex md:gap-[2.5vw] lg:gap-8 xl:gap-9 w-fit justify-center absolute top-6 right-6 lg:top-8 lg:right-12 xl:right-20">
