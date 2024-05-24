@@ -14,16 +14,16 @@ const Manager = ({ name, portfolioUrl, packagesUrl='', onlyOneUrl }: ManagerProp
     return (
         <div className='bg-white flex flex-col gap-3 rounded-xl overflow-hidden transition mx-auto md:mx-0 w-[320px]'>
             <div className={`${name.split(' ')[0].toLowerCase()}`}></div>
-            <div className='text-center flex flex-col gap-3 pb-5 pt-1'>
+            <div className='text-center flex flex-col gap-3 pb-4 pt-1'>
                 <h1 className='font-medium text-[20px]'>{name}</h1>
-                {onlyOneUrl ? (
+                {/* {onlyOneUrl ? (
                     <Link href={portfolioUrl} target='_blank'><button className='bg-[#73091D] text-white rounded-lg py-2 w-[85%] text-[18px] font-medium hover:opacity-90 transition'>Portfolio / Packages</button></Link>
                 ) : (
                     <div className='flex gap-1 justify-center'>
                         <Link href={portfolioUrl} target='_blank'><button className='bg-[#73091D] text-white rounded-lg py-2 px-7 text-[18px] font-medium hover:opacity-90 transition'>Portfolio</button></Link>
                         <Link href={packagesUrl} target='_blank'><button className='bg-[#73091D] text-white rounded-lg py-2 px-7 text-[18px] font-medium hover:opacity-90 transition'>Packages</button></Link>
                     </div>
-                ) }
+                ) } */}
             </div>
         </div>
         // <div className='flex flex-col rounded-lg overflow-hidden'>
