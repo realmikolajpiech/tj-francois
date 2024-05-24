@@ -42,13 +42,16 @@ export function ContactSection() {
                 </fieldset>
                 <div className="flex flex-col gap-3">
                     <div>Which services are you interested in?</div>
-                    <CheckInput id="creativeAdStrategy" value="creativeAdStrategy" text="Creative Ad Strategy" />
+                    <CheckInput id="creativeStrategy" value="creativeStrategy" text="Creative Strategy" />
+                    <CheckInput id="organic" value="organic" text="Organic" />
+                    <CheckInput id="paid" value="paid" text="Paid" />
                     <CheckInput id="adCreatives" value="adCreatives" text="Ad Creatives" />
                     <CheckInput id="rawFootage" value="rawFootage" text="Raw Footage" />
                     <CheckInput id="postProduction" value="postProduction" text="Post Production" />
                     <CheckInput id="creators" value="creators" text="Creators Sourcing, Training, & Management" />
                     <CheckInput id="copywriting" value="copywriting" text="Direct Response Copywriting" />
                     <CheckInput id="brandCollaboration" value="brandCollaboration" text="Brand Collaboration (tjandsteph_, stepht.trades, vitalsocials.co)" />
+                    <CheckInput id="smm" value="smm" text="Social Media Management/Growth" />
                 </div>
             </div>
             <div className="mt-6 w-full max-w-[700px] mx-auto md:w-fit md:mx-0">

@@ -17,7 +17,7 @@ export function CopySection() {
                 </svg>
             </div>
             <p className="mt-6 max-w-[630px] mx-auto">
-                Vital Socials partners with top eCommerce brands to craft captivating ad creatives that stop the scroll.
+                Vital Socials partners with top eCommerce brands to craft captivating creatives that stop the scroll.
                 We cherish the collaboration with our esteemed team of creators, who bring their passion and expertise to every project.
             </p>
             <div className="mt-[15px]">

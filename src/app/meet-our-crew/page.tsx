@@ -9,7 +9,7 @@ import ManagersSection from "../../smm-components/ManagersSection";
 import { useState } from "react";
 import gsap from "gsap";
 
-export default function OurTeam() {
+export default function MeetOurCrew() {
     const [pdf, setPdf] = useState('');
 
     const showPopUp = (url: string) => {

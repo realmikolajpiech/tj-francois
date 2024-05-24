@@ -18,6 +18,7 @@ const ManagersSection = () => {
                 <Manager name='Yosmi' />
                 <Manager name='Niha' />
                 <Manager name='Tatiana' />
+                <Manager name='Angie' />
             </div>
         </section>
     )

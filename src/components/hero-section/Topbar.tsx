@@ -15,7 +15,7 @@ export function Topbar() {
     const pathname = usePathname();
     const isHome = pathname === "/";
     const isPortfolio = pathname === "/portfolio";
-    const isTeam = pathname === "/our-team";
+    const isCrew = pathname === "/meet-our-crew";
 
     return (
         <nav className="flex flex-col">
@@ -44,7 +44,7 @@ export function Topbar() {
                 <div className="hidden md:flex gap-8 md:w-fit justify-center text-center font-medium absolute top-6 lg:top-8 lg:right-8 left-1/2 -translate-x-1/2">
                     <a className={`link relative ${isHome ? 'active' : ''}`} href="/">Home</a>
                     <a className={`link relative ${isPortfolio ? 'active' : ''}`} href="/portfolio">Portfolio</a>
-                    <a className={`link relative ${isTeam ? 'active' : ''}`} href="/our-team">Our Team</a>
+                    <a className={`link relative ${isCrew ? 'active' : ''}`} href="/our-team">Meet Our Crew</a>
                     <a className="link relative" href="/#contact">Contact</a>
                 </div>
                 <div className="hidden md:flex md:gap-[2.5vw] lg:gap-8 xl:gap-9 w-fit justify-center absolute top-6 right-6 lg:top-8 lg:right-12 xl:right-20">
@@ -76,7 +76,7 @@ export function Topbar() {
                         <div className="flex flex-col gap-4 w-full justify-center text-center text-xl font-medium">
                             <a className={`mobile-link ${isHome ? 'active' : ''}`} href="/">Home</a>
                             <a className={`mobile-link ${isPortfolio ? 'active' : ''}`} href="/portfolio">Portfolio</a>
-                            <a className={`mobile-link ${isTeam ? 'active' : ''}`} href="/our-team">Our Team</a>
+                            <a className={`mobile-link ${isCrew ? 'active' : ''}`} href="/our-team">Our Team</a>
                             <a href="#contact">Contact</a>
                         </div>
                         <div className="flex gap-10 w-full justify-center">
