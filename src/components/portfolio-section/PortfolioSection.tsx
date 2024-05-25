@@ -22,31 +22,31 @@ export function PortfolioSection() {
                 <div className='flex scale-[70%] md:scale-100 animate-scroll absolute mt-10 sm:mt-16 xl:mt-24 group' ref={carouselRef}>
                     <div className="flex gap-[4.5rem] shrink-0 -translate-x-[11rem]">
                         <Phone imgOrVid="video" video="/creators/betty2.mp4" />
-                        <Phone imgOrVid="video" video="/portfolio/healthandwellness3.mp4" />
+                        <Phone imgOrVid="video" video="/creators/tommi.mp4" />
                         <Phone imgOrVid="video" video="/creators/roby.mp4" />
                         <Phone imgOrVid="video" video="/creators/ericka.mp4" />
                         <Phone imgOrVid="video" video="/portfolio/pet2.mp4" />
-                        <Phone imgOrVid="video" video="/creators/betty1.mp4" />
+                        <Phone imgOrVid="video" video="/creators/britney.mp4" />
                         <Phone imgOrVid="video" video="/creators/rob.mp4" />
                         <Phone imgOrVid="video" video="/portfolio/beauty2.mp4" />
                     </div>
                     <div className="flex gap-[4.5rem] shrink-0 -rotate-[40deg] -translate-y-[585px] -translate-x-[310px] pointer-events-auto">
                         <Phone imgOrVid="video" video="/creators/betty2.mp4" />
-                        <Phone imgOrVid="video" video="/portfolio/healthandwellness3.mp4" />
+                        <Phone imgOrVid="video" video="/creators/tommi.mp4" />
                         <Phone imgOrVid="video" video="/creators/roby.mp4" />
                         <Phone imgOrVid="video" video="/creators/ericka.mp4" />
                         <Phone imgOrVid="video" video="/portfolio/pet2.mp4" />
-                        <Phone imgOrVid="video" video="/creators/betty1.mp4" />
+                        <Phone imgOrVid="video" video="/creators/britney.mp4" />
                         <Phone imgOrVid="video" video="/creators/rob.mp4" />
                         <Phone imgOrVid="video" video="/portfolio/beauty2.mp4" />
                     </div>
                     <div className="flex gap-[4.5rem] shrink-0 -rotate-[80deg] -translate-y-[2240px] -translate-x-[1260px] pointer-events-auto">
                         <Phone imgOrVid="video" video="/creators/betty2.mp4" />
-                        <Phone imgOrVid="video" video="/portfolio/healthandwellness3.mp4" />
+                        <Phone imgOrVid="video" video="/creators/tommi.mp4" />
                         <Phone imgOrVid="video" video="/creators/roby.mp4" />
                         <Phone imgOrVid="video" video="/creators/ericka.mp4" />
                         <Phone imgOrVid="video" video="/portfolio/pet2.mp4" />
-                        <Phone imgOrVid="video" video="/creators/betty1.mp4" />
+                        <Phone imgOrVid="video" video="/creators/britney.mp4" />
                         <Phone imgOrVid="video" video="/creators/rob.mp4" />
                         <Phone imgOrVid="video" video="/portfolio/beauty2.mp4" />
                     </div>
