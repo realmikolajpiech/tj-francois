@@ -25,7 +25,7 @@ export function PortfolioSection() {
                         <Phone imgOrVid="video" video="/creators/tommi.mp4" />
                         <Phone imgOrVid="video" video="/creators/roby.mp4" />
                         <Phone imgOrVid="video" video="/creators/ericka.mp4" />
-                        <Phone imgOrVid="video" video="/portfolio/pet2.mp4" />
+                        <Phone imgOrVid="video" video="/creators/sierra.mp4" />
                         <Phone imgOrVid="video" video="/creators/britney.mp4" />
                         <Phone imgOrVid="video" video="/creators/rob.mp4" />
                         <Phone imgOrVid="video" video="/portfolio/beauty2.mp4" />
@@ -35,7 +35,7 @@ export function PortfolioSection() {
                         <Phone imgOrVid="video" video="/creators/tommi.mp4" />
                         <Phone imgOrVid="video" video="/creators/roby.mp4" />
                         <Phone imgOrVid="video" video="/creators/ericka.mp4" />
-                        <Phone imgOrVid="video" video="/portfolio/pet2.mp4" />
+                        <Phone imgOrVid="video" video="/creators/sierra.mp4" />
                         <Phone imgOrVid="video" video="/creators/britney.mp4" />
                         <Phone imgOrVid="video" video="/creators/rob.mp4" />
                         <Phone imgOrVid="video" video="/portfolio/beauty2.mp4" />
@@ -45,7 +45,7 @@ export function PortfolioSection() {
                         <Phone imgOrVid="video" video="/creators/tommi.mp4" />
                         <Phone imgOrVid="video" video="/creators/roby.mp4" />
                         <Phone imgOrVid="video" video="/creators/ericka.mp4" />
-                        <Phone imgOrVid="video" video="/portfolio/pet2.mp4" />
+                        <Phone imgOrVid="video" video="/creators/sierra.mp4" />
                         <Phone imgOrVid="video" video="/creators/britney.mp4" />
                         <Phone imgOrVid="video" video="/creators/rob.mp4" />
                         <Phone imgOrVid="video" video="/portfolio/beauty2.mp4" />
