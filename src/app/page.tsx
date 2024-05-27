@@ -7,6 +7,7 @@ import { ProcessSection } from "@/components/process-section/ProcessSection";
 import { Topbar } from "@/components/hero-section/Topbar";
 import { Bg } from "@/components/general/Bg";
 import dynamic from "next/dynamic";
+import ResultsSection from "@/components/results-section/ResultsSection";
 
 const DynamicTestimonialsSection = dynamic(() => import('@/components/testimonials-section/TestimonialsSection'), {
   ssr: false,
@@ -21,6 +22,7 @@ export default function Home() {
       <PortfolioSection />
       <CopySection />
       <ProcessSection />
+      <ResultsSection />
       <DynamicTestimonialsSection />
       <ContactSection />
       <Footer />

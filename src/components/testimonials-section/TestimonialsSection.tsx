@@ -3,7 +3,7 @@ import { Title } from "../general/Title";
 export default function TestimonialsSection() {
 
     return (
-        <section className="mt-16">
+        <section className="mt-16 text-center">
             <div className="px-6 mx-auto">
                 <Title>What Others Have To Say</Title>
             </div>
