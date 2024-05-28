@@ -5,11 +5,11 @@ import React from 'react'
 const SMMServices = () => {
     return (
         <section className='mt-10 md:mt-12 lg:mt-14 px-6 md:px-8 lg:px-12 xl:px-20 w-fit'>
-            <hr className='h-4 w-full border-[#e1e1e1]' />
+            <hr className='h-4 w-full border-[#eae4dc]' />
             <div className='w-fit pt-7 rounded-t-3xl'>
                 <Title>Social Media Management Services</Title>
             </div>
-            <div className='py-8 sm:pb-8 sm:w-fit rounded-3xl'>
+            <div className='mt-10 sm:pb-8 sm:w-fit rounded-3xl'>
                 <div className='flex flex-wrap gap-4 justify-center'>
                     <div className='bg-white flex flex-col gap-4 rounded-2xl p-6 max-w-[420px]'>
                         <div className='flex gap-3 items-center'>
@@ -67,7 +67,7 @@ const SMMServices = () => {
                     </div>
                 </div>
             </div>
-            <hr className='h-4 mt-4 w-full border-[#e1e1e1]' />
+            <hr className='h-4 mt-4 w-full border-[#eae4dc]' />
         </section>
     )
 }
