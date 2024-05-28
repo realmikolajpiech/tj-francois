@@ -12,7 +12,7 @@ export function PortfolioHeroSection() {
                         </div>
                     </a> */}
                     <h1 className="mt-2 xl:mt-4 font-bold text-[12vw] sm:text-[52px] md:text-[41px] lg:text-[50px] xl:text-[60px] leading-[50px]">Portfolio</h1>
-                    <h2 className="mt-[28px]  text-[16px] md:text-[18px] lg:text-[20px] ">See our ad creative portfolio.</h2>
+                    <h2 className="mt-[28px] text-[16px] md:text-[18px] lg:text-[20px] ">See our ad creative portfolio.</h2>
                 </div>
             </div>
         </section>
