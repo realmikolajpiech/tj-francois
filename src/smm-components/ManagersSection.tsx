@@ -3,7 +3,7 @@ import Manager from './Manager'
 
 const ManagersSection = () => {
     return (
-        <section className='px-6 md:px-8 lg:px-12 xl:px-20 mt-10 md:mt-12 xl:mt-14 w-[97%]'>
+        <section className='px-6 md:px-8 lg:px-12 xl:px-20 mt-10 md:mt-12 xl:mt-14 w-[97%] md:w-full'>
             <div className='flex flex-col gap-8 md:gap-12'>
                 <div className='flex flex-wrap justify-between gap-8'>
                     <div className='flex flex-col gap-4'>

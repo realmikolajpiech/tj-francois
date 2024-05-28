@@ -4,10 +4,13 @@ import React from 'react'
 
 const SMMServices = () => {
     return (
-        <section className='mt-10 md:mt-12 lg:mt-14'>
-            <div className='bg-[#F8F0E5] py-6 sm:py-8 sm:w-fit mx-auto rounded-3xl'>
+        <section className='mt-10 md:mt-12 lg:mt-14 px-6 md:px-8 lg:px-12 xl:px-20 w-fit'>
+            <hr className='h-4 w-full border-[#e1e1e1]' />
+            <div className='w-fit pt-7 rounded-t-3xl'>
                 <Title>Social Media Management Services</Title>
-                <div className='flex flex-wrap gap-4 justify-center mt-6 sm:mt-8 px-6'>
+            </div>
+            <div className='py-8 sm:pb-8 sm:w-fit rounded-3xl'>
+                <div className='flex flex-wrap gap-4 justify-center'>
                     <div className='bg-white flex flex-col gap-4 rounded-2xl p-6 max-w-[420px]'>
                         <div className='flex gap-3 items-center'>
                             <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +49,7 @@ const SMMServices = () => {
                     </div>
                     <div className='bg-white flex flex-col gap-4 rounded-2xl p-6 max-w-[420px] min-h-[530px]'>
                         <div className='flex gap-3 items-center'>
-                            <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="30" height="31" viewBox="0 0 30 31" fill="#FFD700" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.375 5.5C3.33946 5.5 2.5 6.33946 2.5 7.375C2.5 8.41054 3.33946 9.25 4.375 9.25H5V5.5H4.375ZM7.5 5.5V10.5C7.5 14.6421 10.8579 18 15 18C19.1421 18 22.5 14.6421 22.5 10.5V5.5H7.5ZM25 5.5V9.25H25.625C26.6605 9.25 27.5 8.41054 27.5 7.375C27.5 6.33946 26.6605 5.5 25.625 5.5H25ZM24.9226 11.75H25.625C28.0412 11.75 30 9.79125 30 7.375C30 4.95875 28.0412 3 25.625 3H23.75H6.25H4.375C1.95875 3 0 4.95875 0 7.375C0 9.79125 1.95875 11.75 4.375 11.75H5.07736C5.64143 16.2734 9.2266 19.8586 13.75 20.4226V22.3992L8.31152 26.75H7.5C6.80965 26.75 6.25 27.3096 6.25 28C6.25 28.6904 6.80965 29.25 7.5 29.25H8.75H21.25H22.5C23.1904 29.25 23.75 28.6904 23.75 28C23.75 27.3096 23.1904 26.75 22.5 26.75H21.6885L16.25 22.3992V20.4226C20.7734 19.8586 24.3586 16.2734 24.9226 11.75ZM15 24.6007L12.3135 26.75H17.6865L15 24.6007Z" fill="black"/>
                             </svg>
                             <h1 className='font-semibold text-[32px]'>Elite</h1>
@@ -64,6 +67,7 @@ const SMMServices = () => {
                     </div>
                 </div>
             </div>
+            <hr className='h-4 mt-4 w-full border-[#e1e1e1]' />
         </section>
     )
 }

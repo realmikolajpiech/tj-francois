@@ -15,7 +15,7 @@ export const standardFeaturesSMM = [
 ]
 
 export const premiumFeaturesSMM = [
-    'Everything in standard',
+    'Everything in Standard',
     '2-4 organic stories per day',
     '28 day content calendar (planning 5 post a week)',
     'Done for you posting',
