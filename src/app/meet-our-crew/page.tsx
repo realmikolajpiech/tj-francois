@@ -8,6 +8,7 @@ import { SMMHeroSection } from "@/smm-components/SMMHeroSection";
 import ManagersSection from "../../smm-components/ManagersSection";
 import { useState } from "react";
 import gsap from "gsap";
+import SMMServices from "@/smm-components/SMMServices";
 
 export default function MeetOurCrew() {
     const [pdf, setPdf] = useState('');
@@ -25,6 +26,7 @@ export default function MeetOurCrew() {
         <div className="relative">
             <Topbar />
             <SMMHeroSection />
+            <SMMServices />
             <ManagersSection />
             <ContactSection />
             <Footer />
