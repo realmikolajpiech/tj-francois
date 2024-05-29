@@ -6,7 +6,7 @@ export function PortfolioPortfolioSection() {
     return (
         <div className="flex px-6 md:px-8 lg:px-12 xl:px-20 mt-16 w-full dk:max-w-[1650px] mx-auto">
             <div className="w-full dk:w-fit flex flex-col dk:flex-row dk:flex-wrap justify-between gap-20">
-                <div className="text-center w-[45%]">
+                <div className="text-center w-[45%] mx-auto">
                     <h1 className="font-bold text-[44px] leading-tight">Beauty</h1>
                     <div className="g flex gap-8 mt-6 justify-center flex-wrap">
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
@@ -56,7 +56,7 @@ export function PortfolioPortfolioSection() {
                         </div>
                     </div>
                 </div>
-                <div className="text-center w-[45%]">
+                <div className="text-center w-[45%] mx-auto">
                     <h1 className="font-bold text-[44px] leading-tight">Pet</h1>
                     <div className="g flex gap-8 mt-6 justify-center flex-wrap">
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
@@ -91,7 +91,7 @@ export function PortfolioPortfolioSection() {
                         </div>
                     </div>
                 </div>
-                <div className="text-center justify-center w-[45%]">
+                <div className="text-center justify-center w-[45%] mx-auto">
                     <h1 className="font-bold text-[44px] leading-tight">Tech</h1>
                     <div className="g flex gap-8 mt-6 justify-center flex-wrap">
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
@@ -111,7 +111,7 @@ export function PortfolioPortfolioSection() {
                         </div>
                     </div>
                 </div>
-                <div className="text-center w-[45%]">
+                <div className="text-center w-[45%] mx-auto">
                     <h1 className="font-bold text-[44px] leading-tight">Health / Wellness</h1>
                     <div className="g flex gap-8 mt-6 justify-center flex-wrap">
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
@@ -161,7 +161,7 @@ export function PortfolioPortfolioSection() {
                         </div>
                     </div>
                 </div>
-                <div className="text-center w-[45%]">
+                <div className="text-center w-[45%] mx-auto">
                     <h1 className="font-bold text-[44px] leading-tight">Food / Beverage</h1>
                     <div className="g flex gap-8 mt-6 justify-center flex-wrap">
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
@@ -211,7 +211,7 @@ export function PortfolioPortfolioSection() {
                         </div>
                     </div>
                 </div>
-                <div className="text-center w-[45%]">
+                <div className="text-center w-[45%] mx-auto">
                     <h1 className="font-bold text-[44px] leading-tight">Outdoor</h1>
                     <div className="g flex gap-8 mt-6 justify-center flex-wrap">
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
@@ -231,7 +231,7 @@ export function PortfolioPortfolioSection() {
                         </div>
                     </div>
                 </div>
-                <div className="text-center w-[45%]">
+                <div className="text-center w-[45%] mx-auto">
                     <h1 className="font-bold text-[44px] leading-tight">Travel</h1>
                     <div className="g flex gap-8 mt-6 justify-center flex-wrap">
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
@@ -266,7 +266,7 @@ export function PortfolioPortfolioSection() {
                         </div>
                     </div>
                 </div>
-                <div className="text-center w-[45%]">
+                <div className="text-center w-[45%] mx-auto">
                     <h1 className="font-bold text-[44px] leading-tight">Clothes</h1>
                     <div className="g flex gap-8 mt-6 justify-center flex-wrap">
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
