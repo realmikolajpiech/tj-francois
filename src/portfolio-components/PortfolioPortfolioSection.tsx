@@ -18,7 +18,7 @@ export function PortfolioPortfolioSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/portfolio/beauty1.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/creators/camila.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -33,7 +33,7 @@ export function PortfolioPortfolioSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/portfolio/beauty2.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/creators/debby.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -48,7 +48,7 @@ export function PortfolioPortfolioSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/portfolio/beauty3.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/creators/ericka.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -89,25 +89,10 @@ export function PortfolioPortfolioSection() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
-                            <div>
-                                <div className="relative h-[420px] w-[216px]">
-                                    <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
-                                        className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
-                                    />
-                                    <video muted loop autoPlay
-                                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
-                                    >
-                                        <source src="/portfolio/pet2.mp4" type="video/mp4" className="z-0" />
-                                        Your browser does not support the video tag.
-                                    </video>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div className="text-center justify-center w-[45%]">
-                    <h1 className="font-bold text-[44px] leading-tight">Finance & Tech</h1>
+                    <h1 className="font-bold text-[44px] leading-tight">Tech</h1>
                     <div className="g flex gap-8 mt-6 justify-center flex-wrap">
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
@@ -127,7 +112,7 @@ export function PortfolioPortfolioSection() {
                     </div>
                 </div>
                 <div className="text-center w-[45%]">
-                    <h1 className="font-bold text-[44px] leading-tight">Health & Wellness</h1>
+                    <h1 className="font-bold text-[44px] leading-tight">Health / Wellness</h1>
                     <div className="g flex gap-8 mt-6 justify-center flex-wrap">
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
@@ -138,7 +123,7 @@ export function PortfolioPortfolioSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/portfolio/healthandwellness1.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/creators/tommi.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -153,7 +138,7 @@ export function PortfolioPortfolioSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/portfolio/healthandwellness2.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/creators/sierra.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -168,7 +153,7 @@ export function PortfolioPortfolioSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/portfolio/healthandwellness3.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/creators/roby.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -188,7 +173,7 @@ export function PortfolioPortfolioSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/portfolio/healthandwellness1.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/creators/niha.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -203,7 +188,7 @@ export function PortfolioPortfolioSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/portfolio/healthandwellness2.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/creators/frances.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -218,7 +203,27 @@ export function PortfolioPortfolioSection() {
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="/portfolio/healthandwellness3.mp4" type="video/mp4" className="z-0" />
+                                        <source src="/creators/betty2.mp4" type="video/mp4" className="z-0" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="text-center w-[45%]">
+                    <h1 className="font-bold text-[44px] leading-tight">Outdoor</h1>
+                    <div className="g flex gap-8 mt-6 justify-center flex-wrap">
+                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
+                            <div>
+                                <div className="relative h-[420px] w-[216px]">
+                                    <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                        className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
+                                    />
+                                    <video muted loop autoPlay
+                                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
+                                    >
+                                        <source src="/creators/britney.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -254,6 +259,41 @@ export function PortfolioPortfolioSection() {
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
                                         <source src="/portfolio/pet2.mp4" type="video/mp4" className="z-0" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="text-center w-[45%]">
+                    <h1 className="font-bold text-[44px] leading-tight">Clothes</h1>
+                    <div className="g flex gap-8 mt-6 justify-center flex-wrap">
+                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
+                            <div>
+                                <div className="relative h-[420px] w-[216px]">
+                                    <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                        className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
+                                    />
+                                    <video muted loop autoPlay
+                                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
+                                    >
+                                        <source src="/creators/rob.mp4" type="video/mp4" className="z-0" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
+                            <div>
+                                <div className="relative h-[420px] w-[216px]">
+                                    <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                        className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
+                                    />
+                                    <video muted loop autoPlay
+                                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
+                                    >
+                                        <source src="/creators/xeo.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
