@@ -44,6 +44,7 @@ const ManagersSection = () => {
                         <Manager name='Debby' />
                         <Manager name='Diane + Wayne' />
                         <Manager name='Sierra' />
+                        <Manager name='Hased' />
                         <Manager name='Tommi' />
                         <Manager name='Frances' />
                         <Manager name='Yosmi' />
