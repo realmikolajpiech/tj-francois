@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Vital Socials',
     description: 'Unique Ad Creatives on a Weekly Basis',
-    url: 'http://localhost:3000',
+    url: 'https://vitalsocials.vercel.app',
     siteName: 'Vital Socials',
     images: [
       {
-        url: 'http://localhost:3000/home-OG.png',
+        url: 'https://vitalsocials.vercel.app/home-OG.png',
         width: 1200,
         height: 630,
         alt: "Vital Socials"
