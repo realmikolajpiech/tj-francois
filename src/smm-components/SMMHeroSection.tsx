@@ -1,5 +1,3 @@
-"use client";
-
 export function SMMHeroSection() {
     return (
         <section className="w-full md:mt-6">
@@ -12,7 +10,7 @@ export function SMMHeroSection() {
                         </div>
                     </a> */}
                     <h1 className="mt-2 xl:mt-4 font-bold text-[12vw] sm:text-[52px] md:text-[41px] lg:text-[50px] xl:text-[60px] leading-[50px]">Meet Our Crew</h1>
-                    <h2 className="mt-[28px] max-w-[700px] mx-auto text-[16px] md:text-[18px] lg:text-[20px]">We boost your brand’s online presence by creating engaging content, smart social media strategies, and monthly analysis.</h2>
+                    <h2 className="mt-[28px] max-w-[700px] mx-auto text-[16px] md:text-[18px] lg:text-[20px] leading-tight">We boost your brand’s online presence by creating engaging content, smart social media strategies, and monthly analysis.</h2>
                 </div>
             </div>
         </section>

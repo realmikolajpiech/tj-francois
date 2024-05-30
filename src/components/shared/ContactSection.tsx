@@ -1,5 +1,3 @@
-"use client";
-
 import { CTAButton } from "@/components/general/CTAButton";
 import { Title } from "@/components/general/Title";
 
