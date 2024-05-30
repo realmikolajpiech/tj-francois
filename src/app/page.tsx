@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'Vital Socials',
     images: [
       {
-        url: 'http://localhost:3000/api/og?title=Vital%20Socials',
+        url: 'http://localhost:3000/home-OG.png',
         width: 1200,
         height: 630,
         alt: "Vital Socials"
