@@ -29,8 +29,8 @@ export function Topbar() {
                     >
                         {isCollapsed ? (
                              <svg id="x-menu" viewBox="0 0 100 100" width="40" height="40">
-                                 <line x1="10" y1="10" x2="90" y2="90" stroke="black" stroke-width="10" />
-                                 <line x1="10" y1="90" x2="90" y2="10" stroke="black" stroke-width="10" />
+                                 <line x1="10" y1="10" x2="90" y2="90" stroke="black" strokeWidth="10" />
+                                 <line x1="10" y1="90" x2="90" y2="10" stroke="black" strokeWidth="10" />
                              </svg>
                         ) : (
                                 <svg id="hamburger-menu" viewBox="0 0 100 80" width="40" height="40">

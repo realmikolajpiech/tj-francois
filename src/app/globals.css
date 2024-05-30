@@ -312,6 +312,7 @@ video::-webkit-media-controls-panel {
     height: 385px;
 }
 
+.stephanie { background-image: url('/team/steph.jpg'); }
 .alexa { background-image: url('/team/alexa.jpeg'); }
 .shianne { background-image: url('/team/shianne.jpg'); }
 .xeo { background-image: url('/team/xeo.jpg'); }
