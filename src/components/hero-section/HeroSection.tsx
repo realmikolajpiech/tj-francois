@@ -13,6 +13,7 @@ export function HeroSection() {
                         <div className="mt-[42px]">
                             <h3 className="text-[#2C2C2C] text-[18px]">Trusted by many brands</h3>
                             <div className="flex gap-[13px] flex-wrap mt-[16px] items-center space-y-0 gap-y-1 max-w-[750px]">
+                                <Image className="logo w-[45px]" src="/logos/toyota.png" alt="Toyota logo" width={83} height={30} />
                                 <Image className="logo w-[65px]" src="/logos/HBFace.png" alt="HBFace logo" width={83} height={30} />
                                 <Image className="logo" src="/logos/skipscamper.png" alt="Skip & Scamper logo" width={63} height={30} />
                                 <Image className="logo w-[80px]" src="/logos/bestmoney.png" alt="BestMoney logo" width={95} height={15} />
