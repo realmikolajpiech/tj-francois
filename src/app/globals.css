@@ -190,6 +190,11 @@ body {
 }
 
 
+/* .phone:hover {
+    
+} */
+
+
 /* HAMBURGER */
 
 .hamburger-button {
@@ -262,13 +267,13 @@ video::-webkit-media-controls-panel {
     animation: scroll 22s linear infinite;
 }
 
-/* .animate-scroll:hover {
+.animate-scroll:hover {
     animation-play-state: paused;
-} */
+}
 
-/* .animate-stop:hover {
+.animate-stop:hover {
     animation-play-state: paused;
-} */
+}
 
 .animate-stop:hover .animate-scroll {
     animation-play-state: paused;
@@ -421,7 +426,7 @@ section {
 
 
 .phone {
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 .phone-process-1 {
