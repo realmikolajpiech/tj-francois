@@ -9,6 +9,7 @@ import { Bg } from "@/components/general/Bg";
 import dynamic from "next/dynamic";
 import ResultsSection from "@/components/results-section/ResultsSection";
 import { Metadata } from 'next';
+import SMMServices from "@/smm-components/SMMServices";
 
 export const metadata: Metadata = {
   openGraph: {
@@ -42,6 +43,7 @@ export default function Home() {
       <PortfolioSection />
       <CopySection />
       <ProcessSection />
+      <SMMServices />
       <ResultsSection />
       <DynamicTestimonialsSection />
       <ContactSection />

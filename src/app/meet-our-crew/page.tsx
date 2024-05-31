@@ -34,7 +34,6 @@ export default function MeetOurCrew() {
         <div className="relative">
             <Topbar />
             <SMMHeroSection />
-            <SMMServices />
             <ManagersSection />
             <ContactSection />
             <Footer />
