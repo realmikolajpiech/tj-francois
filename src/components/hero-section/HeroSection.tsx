@@ -40,7 +40,7 @@ export function HeroSection() {
                                 <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                     className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                 />
-                                <Image src="/images/TJ.JPG" width={191} height={385} alt="Image"
+                                <Image src="/images/tjandsteph.jpg" width={191} height={385} alt="Image"
                                     className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                 />
                             </div>
