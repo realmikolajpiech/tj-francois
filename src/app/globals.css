@@ -20,7 +20,7 @@ body {
 }
 
 @layer base {
-    .checkbox-container {
+    .checkbox-container, .radio-container {
         height: 25px;
         width: 25px;
         background-color: white;
@@ -30,17 +30,20 @@ body {
         left: 0;
         transition: .1s;
     }
+    .radio-container {
+        border-radius: 50%;
+    }
     input[type=checkbox], input[type=radio] {
         opacity: 0;
         z-index: 111;
     }
-    input:checked~.checkbox-container {
+    input:checked~.checkbox-container, input:checked~.radio-container {
         background-color: #EDDCC4;
     }
-    input:checked~.checkbox-container::after {
+    input:checked~.checkbox-container::after, input:checked~.radio-container::after {
         display: block;
     }
-    .checkbox-container::after {
+    .checkbox-container::after, .radio-container::after {
         content: "";
         position: absolute;
         display: none;

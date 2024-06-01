@@ -71,9 +71,9 @@ export function ContactSection() {
                 </fieldset>
                 <div className="flex flex-col gap-3">
                     <div>Which services are you interested in?</div>
+                    <RadioInput id="organic" value="Organic" name="Organic or Paid" text="Organic" />
+                    <RadioInput id="paid" value="Paid" name="Organic or Paid" text="Paid" />
                     <CheckInput id="creativeStrategy" value="Creative strategy" text="Creative Strategy" />
-                    <CheckInput id="organic" value="Organic" text="Organic" />
-                    <CheckInput id="paid" value="Paid" text="Paid" />
                     <CheckInput id="adCreatives" value="Ad creatives" text="Ad Creatives" />
                     <CheckInput id="rawFootage" value="Raw footage" text="Raw Footage" />
                     <CheckInput id="postProduction" value="Post production" text="Post Production" />
