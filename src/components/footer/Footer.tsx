@@ -22,7 +22,7 @@ export function Footer() {
                     </clipPath>
                 </defs>
             </svg>
-            <div className="absolute left-0 bottom-0 -z-10 w-full h-[36vw] sm:h-[26vw] md:hidden bg-[#EDDCC4]"/>
+            <div className="absolute left-0 bottom-0 -z-10 w-full h-[37vw] sm:h-[26vw] md:hidden bg-[#EDDCC4]"/>
             <div className="flex gap-8 w-full gap-y-4 flex-wrap justify-center mb-8 font-medium md:w-fit md:absolute md:left-1/2 md:bottom-8 md:-translate-x-1/2">
                 <a className={`mobile-link ${isHome ? 'active' : ''}`} href="/">Home</a>
                 <a className={`mobile-link ${isPortfolio ? 'active' : ''}`} href="/portfolio">Portfolio</a>
