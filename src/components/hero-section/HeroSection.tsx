@@ -6,8 +6,8 @@ export function HeroSection() {
         <section className="w-full md:mt-6">
             <div className="md:flex md:justify-between">
                 <div className="px-6 md:px-8 lg:px-12 xl:px-20 md:pr-1">
-                    <h1 className="font-bold text-[9vw] sm:text-[52px] md:text-[41px] lg:text-[50px] xl:text-[60px] leading-[50px]">Hi, We&apos;re Vital Socials!</h1>
-                    <h2 className="mt-[28px] max-w-[765px] text-[16px] md:text-[18px] lg:text-[20px] ">I am a Meta, YouTube, and TikTok Ad Creative Strategist. I work with eCommerce brands to offer them unconventional ad creatives on a weekly basis.</h2>
+                    <h1 className="font-bold text-[9vw] sm:text-[52px] md:text-[41px] lg:text-[50px] xl:text-[60px] leading-tight">Hi, We&apos;re Vital Socials!</h1>
+                    <h2 className="mt-[14px] md:mt-[28px] max-w-[765px] text-[16px] md:text-[18px] lg:text-[20px] ">I am a Meta, YouTube, and TikTok Ad Creative Strategist. I work with eCommerce brands to offer them unconventional ad creatives on a weekly basis.</h2>
                     <CTAButton>Contact Us</CTAButton>
                     <div className="hidden md:block">
                         <div className="mt-[42px]">
