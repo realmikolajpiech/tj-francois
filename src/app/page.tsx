@@ -6,10 +6,11 @@ import PortfolioSection from "@/components/portfolio-section/PortfolioSection";
 import { ProcessSection } from "@/components/process-section/ProcessSection";
 import { Topbar } from "@/components/hero-section/Topbar";
 import { Bg } from "@/components/general/Bg";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 import ResultsSection from "@/components/results-section/ResultsSection";
 import { Metadata } from 'next';
 import SMMServices from "@/smm-components/SMMServices";
+import TestimonialsSection from "@/components/testimonials-section/TestimonialsSection";
 
 export const metadata: Metadata = {
   openGraph: {
@@ -30,10 +31,10 @@ export const metadata: Metadata = {
   },
 };
 
-const DynamicTestimonialsSection = dynamic(() => import('@/components/testimonials-section/TestimonialsSection'), {
-  ssr: false,
-  loading: () => <h1>Loading...</h1>
-})
+// const DynamicTestimonialsSection = dynamic(() => import('@/components/testimonials-section/TestimonialsSection'), {
+//   ssr: false,
+//   loading: () => <h1>Loading...</h1>
+// })
 
 export default function Home() {
   return (
@@ -45,7 +46,8 @@ export default function Home() {
       <ProcessSection />
       <SMMServices />
       <ResultsSection />
-      <DynamicTestimonialsSection />
+      {/* <DynamicTestimonialsSection /> */}
+      <TestimonialsSection />
       <ContactSection />
       <Footer />
       <Bg />
