@@ -37,10 +37,10 @@ export function HeroSection() {
                     <div className="hero-phone w-[200px] overflow-hidden grow-0 shrink-0 flex justify-center -rotate-6 scale-75 lg:scale-90 xl:scale-100 -m-8 xl:-m-1">
                         <div>
                             <div className="relative h-[420px] w-[216px]">
-                                <Image src="/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                     className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                 />
-                                <Image src="/images/tjandsteph.jpg" width={191} height={385} alt="Image"
+                                <Image src="https://cdn.vitalsocials.co/team/tjandsteph.jpg" width={191} height={385} alt="Image"
                                     className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                 />
                             </div>
@@ -58,7 +58,7 @@ export function HeroSection() {
                                 <video muted loop autoPlay
                                     className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                 >
-                                    <source src="/creators/tanya.mp4" type="video/mp4" className="z-0" />
+                                    <source src="https://cdn.vitalsocials.co/creators/tanya.mp4" type="video/mp4" className="z-0" />
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
