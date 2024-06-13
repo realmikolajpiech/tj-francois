@@ -69,20 +69,20 @@ export function HeroSection() {
             <div className="mt-[16px] px-6 md:hidden">
                 <h3 className="text-[#2C2C2C] md:text-[18px]">Trusted by many brands</h3>
                 <div className="flex gap-[13px] flex-wrap mt-[23px] items-center space-y-0 gap-y-1">
-                    <Image className="logo w-[65px]" src="/logos/HBFace.png" alt="HBFace logo" width={83} height={30} />
-                    <Image className="logo" src="/logos/skipscamper.png" alt="Skip & Scamper logo" width={63} height={30} />
-                    <Image className="logo w-[80px]" src="/logos/bestmoney.png" alt="BestMoney logo" width={95} height={15} />
-                    <Image className="logo w-[100px]" src="/logos/keynutrients.png" alt="KEY NUTRIENTS logo" width={114} height={30} />
-                    <Image className="logo w-[115px]" src="/logos/crossrope.png" alt="CROSSROPE logo" width={135} height={30} />
-                    <Image className="logo w-[70px]" src="/logos/bo+tee.png" alt="BO+TEE logo" width={75} height={30} />
-                    <Image className="logo w-[120px]" src="/logos/theinkeylist.png" alt="THEINKEYLIST logo" width={135} height={30} />
-                    <Image className="logo" src="/logos/haroutine.png" alt="HA.routine logo" width={67} height={30} />
-                    <Image className="logo w-[60px]" src="/logos/girlfriendcollective.png" alt="girldfriend collective logo" width={68} height={30} />
-                    <Image className="logo w-[80px]" src="/logos/protein2o.png" alt="PROTEIN2o logo" width={94} height={30} />
-                    <Image className="logo w-[75px]" src="/logos/dinovite.png" alt="DINOVITE logo" width={90} height={30} />
-                    <Image className="logo w-[95px]" src="/logos/banilaco.png" alt="BANILA CO logo" width={120} height={30} />
-                    <Image className="logo w-[55px]" src="/logos/ziip.png" alt="ZIIP logo" width={60} height={30} />
-                    <Image className="logo w-[60px]" src="/logos/velisy.png" alt="Velisy logo" width={73} height={30} />
+                    <Image className="logo w-[65px]" src="https://cdn.vitalsocials.co/logos/HBFace.png" alt="HBFace logo" width={83} height={30} />
+                    <Image className="logo" src="https://cdn.vitalsocials.co/logos/skipscamper.png" alt="Skip & Scamper logo" width={63} height={30} />
+                    <Image className="logo w-[80px]" src="https://cdn.vitalsocials.co/logos/bestmoney.png" alt="BestMoney logo" width={95} height={15} />
+                    <Image className="logo w-[100px]" src="https://cdn.vitalsocials.co/logos/keynutrients.png" alt="KEY NUTRIENTS logo" width={114} height={30} />
+                    <Image className="logo w-[115px]" src="https://cdn.vitalsocials.co/logos/crossrope.png" alt="CROSSROPE logo" width={135} height={30} />
+                    <Image className="logo w-[70px]" src="https://cdn.vitalsocials.co/logos/bo+tee.png" alt="BO+TEE logo" width={75} height={30} />
+                    <Image className="logo w-[120px]" src="https://cdn.vitalsocials.co/logos/theinkeylist.png" alt="THEINKEYLIST logo" width={135} height={30} />
+                    <Image className="logo" src="https://cdn.vitalsocials.co/logos/haroutine.png" alt="HA.routine logo" width={67} height={30} />
+                    <Image className="logo w-[60px]" src="https://cdn.vitalsocials.co/logos/girlfriendcollective.png" alt="girldfriend collective logo" width={68} height={30} />
+                    <Image className="logo w-[80px]" src="https://cdn.vitalsocials.co/logos/protein2o.png" alt="PROTEIN2o logo" width={94} height={30} />
+                    <Image className="logo w-[75px]" src="https://cdn.vitalsocials.co/logos/dinovite.png" alt="DINOVITE logo" width={90} height={30} />
+                    <Image className="logo w-[95px]" src="https://cdn.vitalsocials.co/logos/banilaco.png" alt="BANILA CO logo" width={120} height={30} />
+                    <Image className="logo w-[55px]" src="https://cdn.vitalsocials.co/logos/ziip.png" alt="ZIIP logo" width={60} height={30} />
+                    <Image className="logo w-[60px]" src="https://cdn.vitalsocials.co/logos/velisy.png" alt="Velisy logo" width={73} height={30} />
                 </div>
             </div>
         </section>
