@@ -31,7 +31,7 @@ export const premiumFeaturesSMM = [
 export const eliteFeaturesSMM = [
     'Everything in Standard + Premium',
     'Advanced SEO and hashtag strategy',
-    'Community management (engaging with comments and DM&apos;s daily, UGC management)',
+    "Community management (engaging with comments and DM's daily, UGC management)",
     'Monthly analytic report',
     'Content creation, done for you video editing.',
     'Brand deal & influencer campaign',

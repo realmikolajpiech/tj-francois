@@ -7,7 +7,7 @@ export function HeroSection() {
             <div className="md:flex md:justify-between">
                 <div className="px-6 md:px-8 lg:px-12 xl:px-20 md:pr-1">
                     <h1 className="font-bold text-[9vw] sm:text-[52px] md:text-[41px] lg:text-[50px] xl:text-[60px] leading-tight">Hi, We&apos;re Vital Socials!</h1>
-                    <h2 className="mt-[14px] md:mt-[28px] max-w-[765px] text-[16px] md:text-[18px] lg:text-[20px] ">I am a Meta, YouTube, and TikTok Ad Creative Strategist. I work with eCommerce brands to offer them unconventional ad creatives on a weekly basis.</h2>
+                    <h2 className="mt-[14px] md:mt-[28px] max-w-[765px] text-[16px] md:text-[18px] lg:text-[20px] ">We are Meta, YouTube, and TikTok Ad Creative Strategists. We work with eCommerce brands to offer them unconventional ad creatives on a weekly basis.</h2>
                     <CTAButton>Contact Us</CTAButton>
                     <div className="hidden md:block">
                         <div className="mt-[42px]">
@@ -41,7 +41,7 @@ export function HeroSection() {
                                     className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                 />
                                 <Image src="https://cdn.vitalsocials.co/team/tjandsteph.jpg" width={191} height={385} alt="Image"
-                                    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
+                                    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover" loading="eager"
                                 />
                             </div>
                         </div>
