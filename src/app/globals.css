@@ -14,13 +14,16 @@ body {
     overflow-x: hidden;
 }
 
-::selection, ::-moz-selection {
+::selection,
+::-moz-selection {
     color: black;
     background: #EDDCC4;
 }
 
 @layer base {
-    .checkbox-container, .radio-container {
+
+    .checkbox-container,
+    .radio-container {
         height: 25px;
         width: 25px;
         background-color: white;
@@ -30,20 +33,29 @@ body {
         left: 0;
         transition: .1s;
     }
+
     .radio-container {
         border-radius: 50%;
     }
-    input[type=checkbox], input[type=radio] {
+
+    input[type=checkbox],
+    input[type=radio] {
         opacity: 0;
         z-index: 111;
     }
-    input:checked~.checkbox-container, input:checked~.radio-container {
+
+    input:checked~.checkbox-container,
+    input:checked~.radio-container {
         background-color: #EDDCC4;
     }
-    input:checked~.checkbox-container::after, input:checked~.radio-container::after {
+
+    input:checked~.checkbox-container::after,
+    input:checked~.radio-container::after {
         display: block;
     }
-    .checkbox-container::after, .radio-container::after {
+
+    .checkbox-container::after,
+    .radio-container::after {
         content: "";
         position: absolute;
         display: none;
@@ -133,11 +145,19 @@ body {
     transition: .2s;
 }
 
-.x::after { content: "@vitalsocials"; }
-.insta::after { content: "@vitalsocials.co"; }
-.threads::after { content: "@vitalsocials.co"; }
+.x::after {
+    content: "@vitalsocials";
+}
 
-.linkedin::after { 
+.insta::after {
+    content: "@vitalsocials.co";
+}
+
+.threads::after {
+    content: "@vitalsocials.co";
+}
+
+.linkedin::after {
     content: "Tj Francois";
     width: 117px
 }
@@ -158,7 +178,8 @@ body {
     transition: .3s;
 }
 
-.link:hover::after, .link.active::after {
+.link:hover::after,
+.link.active::after {
     width: 50%;
 }
 
@@ -315,35 +336,109 @@ video::-webkit-media-controls-panel {
     height: 385px;
 }
 
-.stephanie { background-image: url('https://cdn.vitalsocials.co/team/steph.jpg'); }
-.alexa { background-image: url('https://cdn.vitalsocials.co/team/alexa.jpeg'); }
-.shianne { background-image: url('https://cdn.vitalsocials.co/team/shianne.jpg'); }
-.xeo { background-image: url('https://cdn.vitalsocials.co/team/xeo.jpg'); }
-.jayne { background-image: url('https://cdn.vitalsocials.co/team/jayne.jpg'); }
-.jasmin { background-image: url('https://cdn.vitalsocials.co/team/jasmin.JPG'); }
-.sierra { background-image: url('https://cdn.vitalsocials.co/team/sierra.jpg'); }
-.frances { background-image: url('https://cdn.vitalsocials.co/team/frances.jpg'); }
-.abby { background-image: url('https://cdn.vitalsocials.co/team/abby.JPG'); }
-.diane { background-image: url('https://cdn.vitalsocials.co/team/diane_+_wayne.jpg'); }
-.tommi { background-image: url('https://cdn.vitalsocials.co/team/tommi.JPG'); }
-.yosmi { background-image: url('https://cdn.vitalsocials.co/team/yosmi.jpg'); }
-.niha { background-image: url('https://cdn.vitalsocials.co/team/niha.jpg'); }
-.tatiana { background-image: url('https://cdn.vitalsocials.co/team/tatiana.jpg'); }
-.angie { background-image: url('https://cdn.vitalsocials.co/team/angie.jpg'); }
-.camila { background-image: url('https://cdn.vitalsocials.co/team/camila.png'); }
-.debby { background-image: url('https://cdn.vitalsocials.co/team/debby.jpg'); }
-.tj { background-image: url('https://cdn.vitalsocials.co/team/tj.JPG'); }
-.navi { background-image: url('https://cdn.vitalsocials.co/team/navi.png'); }
-.ana { background-image: url('https://cdn.vitalsocials.co/team/ana.png'); }
-.britney { background-image: url('https://cdn.vitalsocials.co/team/britney.jpg'); }
-.karonde { background-image: url('https://cdn.vitalsocials.co/team/karonde.jpg'); }
-.hased { background-image: url('https://cdn.vitalsocials.co/team/hased.jpeg'); }
-.ericka { background-image: url('https://cdn.vitalsocials.co/team/ericka.jpg'); }
-.betty { background-image: url('https://cdn.vitalsocials.co/team/betty.jpg'); }
+.stephanie {
+    background-image: url('https://cdn.vitalsocials.co/team/steph.jpg');
+}
+
+.alexa {
+    background-image: url('https://cdn.vitalsocials.co/team/alexa.jpeg');
+}
+
+.shianne {
+    background-image: url('https://cdn.vitalsocials.co/team/shianne.jpg');
+}
+
+.xeo {
+    background-image: url('https://cdn.vitalsocials.co/team/xeo.jpg');
+}
+
+.jayne {
+    background-image: url('https://cdn.vitalsocials.co/team/jayne.jpg');
+}
+
+.jasmin {
+    background-image: url('https://cdn.vitalsocials.co/team/jasmin.JPG');
+}
+
+.sierra {
+    background-image: url('https://cdn.vitalsocials.co/team/sierra.jpg');
+}
+
+.frances {
+    background-image: url('https://cdn.vitalsocials.co/team/frances.jpg');
+}
+
+.abby {
+    background-image: url('https://cdn.vitalsocials.co/team/abby.JPG');
+}
+
+.diane {
+    background-image: url('https://cdn.vitalsocials.co/team/diane_+_wayne.jpg');
+}
+
+.tommi {
+    background-image: url('https://cdn.vitalsocials.co/team/tommi.JPG');
+}
+
+.yosmi {
+    background-image: url('https://cdn.vitalsocials.co/team/yosmi.jpg');
+}
+
+.niha {
+    background-image: url('https://cdn.vitalsocials.co/team/niha.jpg');
+}
+
+.tatiana {
+    background-image: url('https://cdn.vitalsocials.co/team/tatiana.jpg');
+}
+
+.angie {
+    background-image: url('https://cdn.vitalsocials.co/team/angie.jpg');
+}
+
+.camila {
+    background-image: url('https://cdn.vitalsocials.co/team/camila.png');
+}
+
+.debby {
+    background-image: url('https://cdn.vitalsocials.co/team/debby.jpg');
+}
+
+.tj {
+    background-image: url('https://cdn.vitalsocials.co/team/tj.JPG');
+}
+
+.navi {
+    background-image: url('https://cdn.vitalsocials.co/team/navi.png');
+}
+
+.ana {
+    background-image: url('https://cdn.vitalsocials.co/team/ana.png');
+}
+
+.britney {
+    background-image: url('https://cdn.vitalsocials.co/team/britney.jpg');
+}
+
+.karonde {
+    background-image: url('https://cdn.vitalsocials.co/team/karonde.jpg');
+}
+
+.hased {
+    background-image: url('https://cdn.vitalsocials.co/team/hased.jpeg');
+}
+
+.ericka {
+    background-image: url('https://cdn.vitalsocials.co/team/ericka.jpg');
+}
+
+.betty {
+    background-image: url('https://cdn.vitalsocials.co/team/betty.jpg');
+}
 
 
 section {
-    animation: firstAppear forwards .5s;
+    /* animation: firstAppear forwards .5s; */
 }
 
 @keyframes firstAppear {
@@ -351,6 +446,7 @@ section {
         opacity: 0;
         transform: scale(.95) translateY(50px);
     }
+
     to {
         opacity: 1;
         transform: scale(1) translateY(0);
@@ -387,6 +483,7 @@ section {
     .process-phones2 {
         right: -37rem !important;
     }
+
     .step3 {
         margin-right: 17rem !important;
     }
@@ -402,9 +499,11 @@ section {
     .process-phones {
         left: -16rem !important;
     }
+
     .process-phones2 {
         right: -30rem !important;
     }
+
     .step3 {
         margin-right: 22rem !important;
     }
@@ -530,6 +629,7 @@ section {
     .animate-scroll {
         left: -15%;
     }
+
     .portfolio-section {
         margin-top: -10.5rem !important;
     }
@@ -549,6 +649,7 @@ section {
     .animate-scroll {
         left: -20%;
     }
+
     .portfolio-section {
         margin-top: -12rem !important;
         margin-bottom: -30rem;
@@ -559,6 +660,7 @@ section {
     .animate-scroll {
         left: -25%;
     }
+
     .portfolio-section {
         margin-top: -13.5rem !important;
         margin-bottom: -30rem;
@@ -588,6 +690,7 @@ section {
     .animate-scroll {
         left: -40%;
     }
+
     .portfolio-section {
         margin-top: -7rem !important;
         margin-bottom: -30rem;
@@ -598,6 +701,7 @@ section {
     .animate-scroll {
         left: -45%;
     }
+
     .portfolio-section {
         margin-top: -8rem !important;
         margin-bottom: -30rem;
@@ -639,14 +743,14 @@ section {
     .animate-scroll {
         left: -120%;
     }
-    
+
 }
 
 @media screen and (max-width: 540px) {
     .animate-scroll {
         left: -150%;
     }
-    
+
 }
 
 @media screen and (max-width: 440px) {

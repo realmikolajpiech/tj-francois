@@ -37,7 +37,7 @@ export function PortfolioPortfolioSection() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
+                        {/* <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
                                     <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
@@ -51,7 +51,7 @@ export function PortfolioPortfolioSection() {
                                     </video>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
@@ -67,7 +67,7 @@ export function PortfolioPortfolioSection() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
+                        {/* <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
                                     <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
@@ -81,7 +81,7 @@ export function PortfolioPortfolioSection() {
                                     </video>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="text-center w-full xl:max-w-[45%] mx-auto">
@@ -117,7 +117,7 @@ export function PortfolioPortfolioSection() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
+                        {/* <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
                                     <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
@@ -131,7 +131,7 @@ export function PortfolioPortfolioSection() {
                                     </video>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
@@ -142,21 +142,6 @@ export function PortfolioPortfolioSection() {
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
                                         <source src="https://cdn.vitalsocials.co/creators/karonde.mp4" type="video/mp4" className="z-0" />
-                                        Your browser does not support the video tag.
-                                    </video>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
-                            <div>
-                                <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
-                                        className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
-                                    />
-                                    <video muted loop autoPlay
-                                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
-                                    >
-                                        <source src="https://cdn.vitalsocials.co/creators/tanya.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -217,7 +202,7 @@ export function PortfolioPortfolioSection() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
+                        {/* <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
                                     <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
@@ -231,7 +216,7 @@ export function PortfolioPortfolioSection() {
                                     </video>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
@@ -352,7 +337,7 @@ export function PortfolioPortfolioSection() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
+                        {/* <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
                                     <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
@@ -366,8 +351,8 @@ export function PortfolioPortfolioSection() {
                                     </video>
                                 </div>
                             </div>
-                        </div>
-                        <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
+                        </div> */}
+                        {/* <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
                                     <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
@@ -381,7 +366,7 @@ export function PortfolioPortfolioSection() {
                                     </video>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
