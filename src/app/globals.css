@@ -283,7 +283,7 @@ video::-webkit-media-controls-panel {
 
 .animate-scroll {
     transform-origin: center;
-    animation: scroll 22s linear infinite;
+    animation: scroll 18s linear infinite;
 }
 
 .animate-scroll:hover {
@@ -305,27 +305,22 @@ video::-webkit-media-controls-panel {
 @keyframes scroll {
     from {
         transform: translateX(0) rotate(0) translateY(0);
-        /* background-color: green; */
     }
 
     25% {
-        transform: translateX(calc(-223px * 2)) rotate(10deg) translateY(315px);
-        /* background-color: black; */
+        transform: translateX(calc(-243px * 1.25)) rotate(6.25deg) translateY(100px);
     }
 
     50% {
-        transform: translateX(calc(-223px * 4)) rotate(20deg) translateY(560px);
-        /* background-color: yellow; */
+        transform: translateX(calc(-243px * 2.5)) rotate(12.5deg) translateY(150px);
     }
 
     75% {
-        transform: translateX(calc(-223px * 6)) rotate(30deg) translateY(740px);
-        /* background-color: blue; */
+        transform: translateX(calc(-243px * 3.75)) rotate(18.75deg) translateY(160px);
     }
 
     to {
-        transform: translateX(calc(-223px * 8)) rotate(40deg) translateY(845px);
-        /* background-color: pink; */
+        transform: translateX(calc(-243px * 5)) rotate(24.5deg) translateY(130px);
     }
 }
 
@@ -558,7 +553,7 @@ section {
     transform: rotate(0deg) translateY(-30px);
 }
 
-.phone:nth-of-type(6) {
+/* .phone:nth-of-type(6) {
     transform: rotate(-5deg) translateY(-40px);
 }
 
@@ -568,7 +563,7 @@ section {
 
 .phone:nth-of-type(8) {
     transform: rotate(-15deg) translateY(-125px);
-}
+} */
 
 /* PORTFOLIO SECTION CENTERING */
 
@@ -627,7 +622,7 @@ section {
 
 @media screen and (max-width: 1675px) {
     .animate-scroll {
-        left: -15%;
+        left: -13%;
     }
 
     .portfolio-section {
@@ -647,7 +642,7 @@ section {
 
 @media screen and (max-width: 1540px) {
     .animate-scroll {
-        left: -20%;
+        left: -15%;
     }
 
     .portfolio-section {
@@ -669,7 +664,7 @@ section {
 
 @media screen and (max-width: 1340px) {
     .animate-scroll {
-        left: -30%;
+        left: -25%;
     }
 }
 
@@ -710,7 +705,7 @@ section {
 
 @media screen and (max-width: 1040px) {
     .animate-scroll {
-        left: -55%;
+        left: -50%;
     }
 }
 
@@ -722,7 +717,7 @@ section {
 
 @media screen and (max-width: 840px) {
     .animate-scroll {
-        left: -80%;
+        left: -75%;
     }
 }
 
@@ -755,12 +750,12 @@ section {
 
 @media screen and (max-width: 440px) {
     .animate-scroll {
-        left: -190%;
+        left: -175%;
     }
 }
 
 @media screen and (max-width: 400px) {
     .animate-scroll {
-        left: -230%;
+        left: -190%;
     }
 }
