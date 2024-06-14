@@ -27,7 +27,7 @@ export default function PortfolioSection() {
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/tommi.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/roby.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/ericka.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
-                        <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/sierra.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
+                        <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/betty1.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         {/* <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/britney.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} /> */}
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/rob.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         {/* <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/portfolio/beauty2.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} /> */}
@@ -37,7 +37,7 @@ export default function PortfolioSection() {
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/tommi.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/roby.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/ericka.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
-                        <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/sierra.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
+                        <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/betty1.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         {/* <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/britney.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} /> */}
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/rob.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         {/* <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/portfolio/beauty2.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} /> */}
@@ -47,7 +47,7 @@ export default function PortfolioSection() {
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/tommi.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/roby.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/ericka.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
-                        <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/sierra.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
+                        <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/betty1.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         {/* <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/britney.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} /> */}
                         <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/rob.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} />
                         {/* <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/portfolio/beauty2.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} /> */}
