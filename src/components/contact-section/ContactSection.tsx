@@ -26,7 +26,7 @@ export function ContactSection() {
                 <div className="flex flex-col gap-2">
                     <label htmlFor="name">Name</label>
                     <Input placeholder="What's your name?" id="name" />
-                    <ValidationError 
+                    <ValidationError
                         prefix="Name"
                         field="name"
                         errors={state.errors}
@@ -35,7 +35,7 @@ export function ContactSection() {
                 <div className="flex flex-col gap-2">
                     <label htmlFor="email">Email</label>
                     <Input placeholder="What's your email?" id="email" />
-                    <ValidationError 
+                    <ValidationError
                         prefix="Email"
                         field="email"
                         errors={state.errors}
@@ -44,7 +44,7 @@ export function ContactSection() {
                 <div className="flex flex-col gap-2">
                     <label htmlFor="brand">Name of your brand</label>
                     <Input placeholder="What's the name of your brand?" id="brand" />
-                    <ValidationError 
+                    <ValidationError
                         prefix="Brand name"
                         field="brand"
                         errors={state.errors}
@@ -53,7 +53,7 @@ export function ContactSection() {
                 <div className="flex flex-col gap-2">
                     <label htmlFor="website">Website of your brand</label>
                     <Input placeholder="What's the website of your brand?" id="website" />
-                    <ValidationError 
+                    <ValidationError
                         prefix="Website"
                         field="website"
                         errors={state.errors}
@@ -81,6 +81,7 @@ export function ContactSection() {
                     <CheckInput id="copywriting" value="Direct response copywriting" text="Direct Response Copywriting" />
                     <CheckInput id="brandCollaboration" value="Brand collaboration" text="Brand Collaboration (tjandsteph_, stepht.trades, vitalsocials.co)" />
                     <CheckInput id="smm" value="Social media management/growth" text="Social Media Management/Growth" />
+                    <CheckInput id="webDesign" value="Web Design" text="Web Design" />
                 </div>
                 <div className={`mt-6 w-full max-w-[700px] mx-auto md:w-fit md:mx-0 ${state.submitting ? 'opacity-50 hover:cursor-default pointer-events-none' : 'opacity-100'}`}>
                     <CTAButton variant="send">Send</CTAButton>
