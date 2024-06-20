@@ -280,13 +280,31 @@ video::-webkit-media-controls-panel {
     display: none !important;
 }
 
+.testimonials {
+    will-change: transform;
+    transform-origin: center;
+    animation: testimonialsScroll 71.5s linear infinite;
+}
+
+
+
+@keyframes testimonialsScroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-325px * 11));
+    }
+}
 
 .animate-scroll {
     transform-origin: center;
     animation: scroll 18s linear infinite;
 }
 
-.animate-scroll:hover {
+.animate-scroll:hover,
+.testimonials:hover {
     animation-play-state: paused;
 }
 
