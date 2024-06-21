@@ -207,11 +207,11 @@ body {
 }
 
 
-@media screen and (max-width: 487px) {
+/* @media screen and (max-width: 487px) {
     .g {
         gap: 0px;
     }
-}
+} */
 
 
 /* HAMBURGER */
