@@ -69,6 +69,7 @@ export function HeroSection() {
             <div className="mt-[16px] px-6 md:hidden">
                 <h3 className="text-[#2C2C2C] md:text-[18px]">Trusted by many brands</h3>
                 <div className="flex gap-[13px] flex-wrap mt-[23px] items-center space-y-0 gap-y-1">
+                    <Image className="logo w-[45px]" src="https://cdn.vitalsocials.co/logos/toyota.png" alt="Toyota logo" width={83} height={30} />
                     <Image className="logo w-[65px]" src="https://cdn.vitalsocials.co/logos/HBFace.png" alt="HBFace logo" width={83} height={30} />
                     <Image className="logo" src="https://cdn.vitalsocials.co/logos/skipscamper.png" alt="Skip & Scamper logo" width={63} height={30} />
                     <Image className="logo w-[80px]" src="https://cdn.vitalsocials.co/logos/bestmoney.png" alt="BestMoney logo" width={95} height={15} />
