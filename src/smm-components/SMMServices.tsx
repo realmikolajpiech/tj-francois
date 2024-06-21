@@ -5,7 +5,7 @@ import React from 'react'
 const SMMServices = () => {
     return (
         <section className='mt-10 md:mt-12 lg:mt-14 px-6 md:px-8 lg:px-12 xl:px-20 w-fit mx-auto'>
-            <hr className='h-4 w-full border-[#eae4dc]' />
+            <hr className='h-4 w-full border-[#eae4dc] hidden md:block' />
             <div className='w-fit pt-7 rounded-t-3xl mx-auto'>
                 <Title>Social Media Management Offer</Title>
             </div>

@@ -19,8 +19,8 @@ export default function PortfolioSection() {
     }
 
     return (
-        <section className="portfolio-section w-[100vw] h-[850px] items-center gap-10 flex overflow-hidden mt-48 mb-16 md:-mt-36 md:-mb-8 lg:-mt-56 xl:-mt-[13rem] lg:pt-[80px] relative">
-            <div className="flex overflow-hidden gap-10 relative w-full h-[850px] items-center mt-48 mb-16 md:-mt-36 md:-mb-8 lg:-mt-48 xl:-mt-[0] lg:pt-[0] animate-stop pointer-events-none" onMouseEnter={() => { pauseCarousel() }} onMouseLeave={() => { resumeCarousel() }}>
+        <section className="portfolio-section w-[100vw] h-[850px] items-center gap-10 flex overflow-hidden mt-36 mb-16 md:-mt-36 md:-mb-8 lg:-mt-56 xl:-mt-[13rem] lg:pt-[80px] relative">
+            <div className="flex overflow-hidden gap-10 relative w-full h-[850px] items-center mt-36 mb-16 md:-mt-36 md:-mb-8 lg:-mt-48 xl:-mt-[0] lg:pt-[0] animate-stop pointer-events-none" onMouseEnter={() => { pauseCarousel() }} onMouseLeave={() => { resumeCarousel() }}>
                 <div className='flex scale-[70%] md:scale-100 animate-scroll absolute mt-10 sm:mt-16 xl:mt-24 group' ref={carouselRef}>
                     <div className="flex gap-[4.5rem] shrink-0 -translate-x-[11rem] pointer-events-auto">
                         {/* <Phone imgOrVid="video" video="https://cdn.vitalsocials.co/creators/betty2.mp4" pauseCarousel={pauseCarousel} resumeCarousel={resumeCarousel} /> */}
