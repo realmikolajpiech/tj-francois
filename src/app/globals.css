@@ -449,6 +449,10 @@ video::-webkit-media-controls-panel {
     background-image: url('https://cdn.vitalsocials.co/team/betty.jpg');
 }
 
+.lana {
+    background-image: url('https://cdn.vitalsocials.co/team/lana.png');
+}
+
 
 section {
     /* animation: firstAppear forwards .5s; */

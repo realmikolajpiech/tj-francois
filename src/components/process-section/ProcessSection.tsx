@@ -29,7 +29,7 @@ export function ProcessSection() {
                                         <video muted loop autoPlay playsInline
                                             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                         >
-                                            <source src="https://cdn.vitalsocials.co/creators/niha.mp4" type="video/mp4" className="z-0" />
+                                            <source src="https://cdn.vitalsocials.co/creators/niha.mp4" type="video/mp4" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -44,7 +44,7 @@ export function ProcessSection() {
                                         <video muted loop autoPlay width={800} playsInline
                                             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                         >
-                                            <source src="https://cdn.vitalsocials.co/creators/debby.mp4" width={800} type="video/mp4" className="z-0" />
+                                            <source src="https://cdn.vitalsocials.co/creators/debby.mp4" width={800} type="video/mp4" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>

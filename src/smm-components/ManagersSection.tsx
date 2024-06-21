@@ -50,6 +50,7 @@ const ManagersSection = () => {
                         <Manager name='Tommi' />
                         <Manager name='Frances' />
                         <Manager name='Yosmi' />
+                        <Manager name='Lana' />
                     </div>
                 </div>
             </div>
