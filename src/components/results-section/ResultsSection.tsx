@@ -16,10 +16,10 @@ const ResultsSection = () => {
                     </div>
                     <Image src='https://cdn.vitalsocials.co/results/5.png' className='shrink-0 grow-0 self-start' alt='Results' width={240} height={425} />
                     <div className='flex flex-col gap-2 sm:gap-[10px]'>
-                        <Image src='https://cdn.vitalsocials.co/results/6.png' className='shrink-0 grow-0 self-start' alt='Results' width={230} height={425} />
-                        <Image src='https://cdn.vitalsocials.co/results/7.png' className='shrink-0 grow-0 self-start' alt='Results' width={230} height={425} />
+                        <Image src='https://cdn.vitalsocials.co/results/6.png' className='hidden sm:block shrink-0 grow-0 self-start' alt='Results' width={230} height={425} />
+                        <Image src='https://cdn.vitalsocials.co/results/7.png' className='hidden sm:block shrink-0 grow-0 self-start' alt='Results' width={230} height={425} />
                     </div>
-                    <Image src='https://cdn.vitalsocials.co/results/8.png' className='shrink-0 grow-0 self-start w-[230px] md:w-[240px]' alt='Results' width={240} height={425} />
+                    <Image src='https://cdn.vitalsocials.co/results/8.png' className='hidden sm:block shrink-0 grow-0 self-start w-[230px] md:w-[240px]' alt='Results' width={240} height={425} />
                 </div>
 
                 <div className='hidden lg:flex r:hidden w-full flex-wrap gap-[10px] justify-center'>
@@ -55,7 +55,7 @@ const ResultsSection = () => {
                         <div className='flex flex-col gap-2 sm:gap-[10px]'>
                             <Image src='https://cdn.vitalsocials.co/results/6.png' className='shrink-0 grow-0 self-start' alt='Results' width={230} height={425} />
                             <Image src='https://cdn.vitalsocials.co/results/7.png' className='shrink-0 grow-0 self-start' alt='Results' width={230} height={425} />
-                            <Image src='https://cdn.vitalsocials.co/results/4.png' className='shrink-0 grow-0 self-start' alt='Results' width={230} height={425} />
+                            <Image src='https://cdn.vitalsocials.co/results/4.png' className=' shrink-0 grow-0 self-start' alt='Results' width={230} height={425} />
                         </div>
                     </div>
                 </div>
