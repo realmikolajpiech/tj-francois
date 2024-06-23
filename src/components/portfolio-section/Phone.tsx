@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image'
-import React, { Suspense } from 'react'
+import React, { Suspense, useEffect, useRef } from 'react'
 
 type PhoneProps = {
     imgOrVid: 'image' | 'video',
@@ -12,6 +12,16 @@ type PhoneProps = {
 }
 
 const Phone = ({ imgOrVid, img, video, pauseCarousel, resumeCarousel }: PhoneProps) => {
+
+    // const videoRef = useRef<HTMLVideoElement>(null);
+
+    // useEffect(() => {
+    //     if (videoRef.current && video) {
+    //         videoRef.current.play().catch(error => {
+    //             console.error("Video play failed", error);
+    //         });
+    //     }
+    // }, [video]);
 
     return (
         <Suspense fallback={<p>Loading...</p>}>
@@ -26,7 +36,7 @@ const Phone = ({ imgOrVid, img, video, pauseCarousel, resumeCarousel }: PhonePro
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             />
                         ) : (
-                            <video controls muted loop autoPlay playsInline
+                            <video muted loop autoPlay playsInline
                                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                             >
                                 <source src={video!} type="video/mp4" className="z-0" />
