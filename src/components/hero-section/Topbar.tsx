@@ -77,7 +77,7 @@ export function Topbar() {
                             <a className={`mobile-link ${isHome ? 'active' : ''}`} href="/">Home</a>
                             <a className={`mobile-link ${isPortfolio ? 'active' : ''}`} href="/portfolio">Portfolio</a>
                             <a className={`mobile-link ${isCrew ? 'active' : ''}`} href="/meet-our-crew">Meet Our Crew</a>
-                            <a href="#contact">Contact</a>
+                            <a href="/#contact">Contact</a>
                         </div>
                         <div className="flex gap-10 w-full justify-center">
                             <a href="https://x.com/vitalsocials" target="_blank">
