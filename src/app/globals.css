@@ -453,6 +453,10 @@ video::-webkit-media-controls-panel {
     background-image: url('https://cdn.vitalsocials.co/team/lana.png');
 }
 
+.nicholas {
+    background-image: url('https://cdn.vitalsocials.co/team/nicholas.jpg');
+}
+
 
 video::-webkit-media-controls {
     display: none !important;

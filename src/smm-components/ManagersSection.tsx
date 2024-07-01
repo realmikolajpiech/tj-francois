@@ -18,6 +18,7 @@ const ManagersSection = () => {
                         <div className='flex flex-wrap gap-4 md:gap-6'>
                             <Manager name='Navi' />
                             <Manager name='Shianne' />
+                            <Manager name='Nicholas' />
                         </div>
                     </div>
                 </div>
