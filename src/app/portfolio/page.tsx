@@ -11,16 +11,16 @@ export const metadata: Metadata = {
     description: 'See our creative portfolio in a variety of niches.',
     openGraph: {
         title: 'Vital Socials',
-        description: 'Unique Ad Creatives on a Weekly Basis',
+        description: 'Unique Ad Creatives on a Biweekly Basis',
         url: 'https://vitalsocials.vercel.app',
         siteName: 'Vital Socials - Portfolio',
         images: [
-        {
-            url: 'https://vitalsocials.vercel.app/portfolio-OG.png',
-            width: 1200,
-            height: 630,
-            alt: "Vital Socials"
-        },
+            {
+                url: 'https://vitalsocials.vercel.app/portfolio-OG.png',
+                width: 1200,
+                height: 630,
+                alt: "Vital Socials"
+            },
         ],
         locale: 'en_US',
         type: 'website',

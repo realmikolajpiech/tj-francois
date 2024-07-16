@@ -12,16 +12,16 @@ export const metadata: Metadata = {
     description: 'Meet our team - the founders, the internal team, and the creators.',
     openGraph: {
         title: 'Vital Socials',
-        description: 'Unique Ad Creatives on a Weekly Basis',
+        description: 'Unique Ad Creatives on a Biweekly Basis',
         url: 'https://vitalsocials.vercel.app',
         siteName: 'Vital Socials - Meet Our Crew',
         images: [
-        {
-            url: 'https://vitalsocials.vercel.app/crew-OG.png',
-            width: 1200,
-            height: 630,
-            alt: "Vital Socials"
-        },
+            {
+                url: 'https://vitalsocials.vercel.app/crew-OG.png',
+                width: 1200,
+                height: 630,
+                alt: "Vital Socials"
+            },
         ],
         locale: 'en_US',
         type: 'website',

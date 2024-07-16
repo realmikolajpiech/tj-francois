@@ -15,7 +15,7 @@ import TestimonialsSection from "@/components/testimonials-section/TestimonialsS
 export const metadata: Metadata = {
   openGraph: {
     title: 'Vital Socials',
-    description: 'Unique Ad Creatives on a Weekly Basis',
+    description: 'Unique Ad Creatives on a Biweekly Basis',
     url: 'https://vitalsocials.vercel.app',
     siteName: 'Vital Socials',
     images: [

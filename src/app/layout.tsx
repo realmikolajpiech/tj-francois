@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Vital Socials - Unconventional Creatives on a Weekly Basis",
+  title: "Vital Socials - Unconventional Creatives on a Biweekly Basis",
   description: "Vital Socials partners with top eCommerce brands to craft captivating ad creatives that stop the scroll. We cherish the collaboration with our esteemed team of creators, who bring their passion and expertise to every project.",
 };
 
