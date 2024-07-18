@@ -7,7 +7,10 @@ const SMMServices = () => {
         <section className='mt-10 md:mt-12 lg:mt-14 px-6 md:px-8 lg:px-12 xl:px-20 w-fit mx-auto'>
             <hr className='h-4 w-full border-[#eae4dc] hidden md:block' />
             <div className='w-fit pt-7 rounded-t-3xl mx-auto'>
-                <Title>Social Media Management Offer</Title>
+                <Title>We also offer social media management!</Title>
+                <h2 className="mt-4 max-w-[630px] mx-auto text-[#303030] text-center">
+                    Whether you&apos;re new to social media or need help growing online, we&apos;ve got you. With a proven track record of making viral organic content, we know what works!
+                </h2>
             </div>
             <div className='mt-10 sm:pb-8 sm:w-fit rounded-3xl'>
                 <div className='flex flex-wrap gap-4 justify-center'>

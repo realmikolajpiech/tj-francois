@@ -1,13 +1,9 @@
 'use client';
 
-import Link from 'next/link';
 import React from 'react'
 
 type ManagerProps = {
     name: string;
-    // portfolioUrl: string;
-    // packagesUrl?: string;
-    // onlyOneUrl: boolean;
 }
 
 const Manager = ({ name }: ManagerProps) => {    

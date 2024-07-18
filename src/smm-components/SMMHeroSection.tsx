@@ -9,7 +9,7 @@ export function SMMHeroSection() {
                             <h3 className="text-[#8B8B8B]">Go back</h3>
                         </div>
                     </a> */}
-                    <h1 className="mt-2 xl:mt-4 font-bold text-[12vw] sm:text-[52px] md:text-[41px] lg:text-[50px] xl:text-[60px] leading-[50px]">Meet Our Crew</h1>
+                    <h1 className="mt-2 xl:mt-4 font-bold text-[12vw] sm:text-[52px] md:text-[41px] lg:text-[50px] xl:text-[60px] leading-[50px]">Tap into our network</h1>
                     <h2 className="mt-[28px] max-w-[700px] mx-auto text-[16px] md:text-[18px] lg:text-[18px] text-[#1e1e1e] leading-tight">Meet the founders, the internal team, and our dedicated, passionate team of social media managers and creators.</h2>
                 </div>
             </div>
