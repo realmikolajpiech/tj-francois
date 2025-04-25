@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { usePathname } from "next/navigation"
+import Link from "next/link";
 
 export function Topbar() {
 
@@ -15,7 +16,6 @@ export function Topbar() {
     const pathname = usePathname();
     const isHome = pathname === "/";
     const isPortfolio = pathname === "/portfolio";
-    // const isCrew = pathname === "/meet-our-crew";
 
     return (
         <nav className="flex flex-col">
@@ -45,7 +45,7 @@ export function Topbar() {
                     <a className={`link relative ${isHome ? 'active' : ''}`} href="/">Home</a>
                     <a className={`link relative ${isPortfolio ? 'active' : ''}`} href="/portfolio">Portfolio</a>
                     {/* <a className={`link relative ${isCrew ? 'active' : ''}`} href="/meet-our-crew">Meet Our Crew</a> */}
-                    <a className="link relative" href="/#contact">Contact</a>
+                    <Link className="link relative" href="/#contact">Contact</Link>
                 </div>
                 <div className="hidden md:flex md:gap-[2.5vw] lg:gap-8 xl:gap-9 w-fit justify-center absolute top-6 right-6 lg:top-8 lg:right-12 xl:right-20">
                     <a className="x relative transition duration-300" href="https://x.com/vitalsocials" target="_blank" aria-label="Vital Socials on X/Twitter">

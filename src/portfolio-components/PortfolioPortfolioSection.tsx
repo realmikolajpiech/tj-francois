@@ -10,13 +10,13 @@ export function PortfolioPortfolioSection() {
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/camila.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/camila.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -25,13 +25,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/angie.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/angie.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -40,13 +40,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/ana.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/ana.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -60,13 +60,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/sierra.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/sierra.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -75,13 +75,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/roby.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/roby.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -90,13 +90,13 @@ export function PortfolioPortfolioSection() {
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/karonde.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/karonde.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -110,13 +110,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/yosmi.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/yosmi.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -125,13 +125,13 @@ export function PortfolioPortfolioSection() {
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/diane+wayne.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/diane+wayne.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -145,13 +145,13 @@ export function PortfolioPortfolioSection() {
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/rob.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/rob.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -160,13 +160,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/xeo.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/xeo.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -175,13 +175,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/lana.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/lana.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -195,13 +195,13 @@ export function PortfolioPortfolioSection() {
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/portfolio/pet1.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/portfolio/pet1.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -210,13 +210,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/portfolio/pet2.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/portfolio/pet2.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -230,13 +230,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/portfolio/financetech1.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/portfolio/financetech1.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -245,13 +245,13 @@ export function PortfolioPortfolioSection() {
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/julie.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/julie.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -265,13 +265,13 @@ export function PortfolioPortfolioSection() {
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/frances.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/frances.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -280,13 +280,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/niha.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/niha.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -295,13 +295,13 @@ export function PortfolioPortfolioSection() {
                         {/* <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/hased.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/hased.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -310,13 +310,13 @@ export function PortfolioPortfolioSection() {
                         <div className="hidden xs:flex w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/abby.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/abby.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -330,13 +330,13 @@ export function PortfolioPortfolioSection() {
                         <div className="w-[200px] h-[406px] overflow-hidden grow-0 shrink-0 flex justify-center">
                             <div>
                                 <div className="relative h-[420px] w-[216px]">
-                                    <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                    <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                         className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                     />
                                     <video muted loop autoPlay
                                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                     >
-                                        <source src="https://cdn.vitalsocials.co/creators/britney.mp4" type="video/mp4" className="z-0" />
+                                        <source src="https://vitalsocials.b-cdn.net/creators/britney.mp4" type="video/mp4" className="z-0" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>

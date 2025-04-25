@@ -28,7 +28,7 @@ const Phone = ({ imgOrVid, img, video, pauseCarousel, resumeCarousel }: PhonePro
             <div className="phone w-[200px] overflow-hidden grow-0 shrink-0 flex justify-center -ml-3 h-fit" onMouseEnter={() => { pauseCarousel() }} onMouseLeave={() => { resumeCarousel() }}>
                 <div>
                     <div className="relative h-[420px] w-[216px]">
-                        <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                        <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                             className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 h-[120%]"
                         />
                         {imgOrVid === 'image' ? (

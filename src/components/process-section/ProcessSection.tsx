@@ -35,13 +35,13 @@ export function ProcessSection() {
                             <div className="flex phone-process-1 -mx-12 w-[200px] overflow-hidden grow-0 shrink-0 justify-center">
                                 <div>
                                     <div className="relative h-[420px] w-[216px] scale-[70%]">
-                                        <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                        <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                             className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                         />
                                         <video muted loop autoPlay playsInline
                                             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                         >
-                                            <source src="https://cdn.vitalsocials.co/creators/niha.mp4" type="video/mp4" className="z-0" />
+                                            <source src="https://vitalsocials.b-cdn.net/creators/niha.mp4" type="video/mp4" className="z-0" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -50,13 +50,13 @@ export function ProcessSection() {
                             <div className="phone-process-3 w-[200px] overflow-hidden grow-0 shrink-0 justify-center flex -mx-12">
                                 <div>
                                     <div className="relative h-[420px] w-[216px] scale-[70%]">
-                                        <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                        <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                             className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                         />
                                         <video muted loop autoPlay width={800} playsInline
                                             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                         >
-                                            <source src="https://cdn.vitalsocials.co/creators/debby.mp4" width={800} type="video/mp4" className="z-0" />
+                                            <source src="https://vitalsocials.b-cdn.net/creators/debby.mp4" width={800} type="video/mp4" className="z-0" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -80,13 +80,13 @@ export function ProcessSection() {
                             <div className="phone-process-1 w-[200px] overflow-hidden grow-0 shrink-0 justify-center lg:flex -mx-12">
                                 <div>
                                     <div className="relative h-[420px] w-[216px] scale-[70%]">
-                                        <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                        <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                             className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                         />
                                         <video muted loop autoPlay playsInline
                                             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                         >
-                                            <source src="https://cdn.vitalsocials.co/creators/xeo.mp4" type="video/mp4" className="z-0" />
+                                            <source src="https://vitalsocials.b-cdn.net/creators/xeo.mp4" type="video/mp4" className="z-0" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -95,13 +95,13 @@ export function ProcessSection() {
                             <div className="flex phone-process-3 w-[200px] overflow-hidden grow-0 shrink-0 justify-center -mx-12">
                                 <div>
                                     <div className="relative h-[420px] w-[216px] scale-[70%]">
-                                        <Image src="https://cdn.vitalsocials.co/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
+                                        <Image src="https://vitalsocials.b-cdn.net/portfolio/phone-mockup.png" width={250} height={250} alt="Phone"
                                             className="w-[200px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none h-[120%]"
                                         />
                                         <video muted loop autoPlay playsInline
                                             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 rounded-[25px] w-[191px] h-[385px] object-cover"
                                         >
-                                            <source src="https://cdn.vitalsocials.co/creators/yosmi.mp4" type="video/mp4" className="z-0" />
+                                            <source src="https://vitalsocials.b-cdn.net/creators/yosmi.mp4" type="video/mp4" className="z-0" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>

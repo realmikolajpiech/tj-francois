@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'cdn.vitalsocials.co',
+        hostname: 'vitalsocials.b-cdn.net',
         port: '',
         pathname: '/**',
       },
